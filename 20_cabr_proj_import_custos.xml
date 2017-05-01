@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_contentPack.xsd">
+  <Header action="write" externalSource="NIKU" objectType="contentPack" version="13.3.0.286"/>
+  <contentPack update="true">
+    <portlets update="true">
+      <gridPortlet allowConfigure="true" allowConfigureLabel="true" allowEditing="false" category="COLLABORATION" code="cabr_proj_import_custos"
+        dataProviderId="cabr_proj_import_custo" dataProviderPartitionId="NIKU.ROOT" dataProviderType="nsql" defaultSortColumn="codigo_sgd"
+        defaultSortOrder="ascending" forceFilter="false" gridAttributeProtection="1" hasEditableColumn="false" metricsLocation="bottom"
+        objectType="SYSTEM" querySource="customer" showAltValueText="false" showColumnCurrencyCode="false" source="customer">
+        <nls languageCode="zh" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="da" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="it" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="tr" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="no" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="hu" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="ko" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="cs" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="de" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="fi" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="zh_TW" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="pt" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="pl" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="sv" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="fr" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="en" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="ru" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="es" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="ja" name="CABR Projetos Importação Custos"/>
+        <nls languageCode="nl" name="CABR Projetos Importação Custos"/>
+        <column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="unique_code" isEditable="false" position="2"
+          showHeaderLabel="true" showSeparator="false" type="label">
+          <nls languageCode="zh" name="unique_code"/>
+          <nls languageCode="da" name="Projektkode"/>
+          <nls languageCode="it" name="Codice progetto"/>
+          <nls languageCode="tr" name="Proje Kodu"/>
+          <nls languageCode="no" name="Prosjektkode"/>
+          <nls languageCode="hu" name="Projekt kódja"/>
+          <nls languageCode="ko" name="unique_code"/>
+          <nls languageCode="cs" name="Kód projektu"/>
+          <nls languageCode="de" name="Projektcode"/>
+          <nls languageCode="fi" name="Projektikoodi"/>
+          <nls languageCode="zh_TW" name="unique_code"/>
+          <nls languageCode="pt" name="Código do projeto"/>
+          <nls languageCode="pl" name="Kod projektu"/>
+          <nls languageCode="sv" name="Projektkod"/>
+          <nls languageCode="fr" name="Code du projet"/>
+          <nls languageCode="en" name="Project Code"/>
+          <nls languageCode="ru" name="Код проекта"/>
+          <nls languageCode="es" name="Código de proyecto"/>
+          <nls languageCode="nl" name="Projectcode"/>
+          <nls languageCode="ja" name="プロジェクト コード"/>
+        </column>
+        <column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="manager_id" isEditable="false" position="3"
+          showHeaderLabel="true" showSeparator="false" type="label">
+          <nls languageCode="zh" name="manager_id"/>
+          <nls languageCode="da" name="Leder-id"/>
+          <nls languageCode="it" name="ID manager"/>
+          <nls languageCode="tr" name="Yönetici Kimliği"/>
+          <nls languageCode="no" name="Leder-ID"/>
+          <nls languageCode="hu" name="Menedzser azonosítója"/>
+          <nls languageCode="ko" name="manager_id"/>
+          <nls languageCode="cs" name="ID správce"/>
+          <nls languageCode="de" name="Manager-ID"/>
+          <nls languageCode="fi" name="Päällikön tunnus"/>
+          <nls languageCode="zh_TW" name="manager_id"/>
+          <nls languageCode="pt" name="ID do gerente"/>
+          <nls languageCode="pl" name="Identyfikator menedżera"/>
+          <nls languageCode="fr" name="ID du responsable"/>
+          <nls languageCode="sv" name="Chefs-ID"/>
+          <nls languageCode="en" name="Manager ID"/>
+          <nls languageCode="ru" name="Код менеджера"/>
+          <nls languageCode="es" name="ID del gestor"/>
+          <nls languageCode="nl" name="Id manager"/>
+          <nls languageCode="ja" name="マネージャ ID"/>
+        </column>
+        <column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="manager_code" isEditable="false" position="4"
+          showHeaderLabel="true" showSeparator="false" type="label">
+          <nls languageCode="da" name="Leder"/>
+          <nls languageCode="zh" name="manager_code"/>
+          <nls languageCode="it" name="Manager"/>
+          <nls languageCode="tr" name="Yönetici"/>
+          <nls languageCode="no" name="Leder"/>
+          <nls languageCode="hu" name="Menedzser"/>
+          <nls languageCode="ko" name="manager_code"/>
+          <nls languageCode="cs" name="Manažer"/>
+          <nls languageCode="de" name="Manager"/>
+          <nls languageCode="fi" name="Vastuuhenkilö"/>
+          <nls languageCode="zh_TW" name="manager_code"/>
+          <nls languageCode="pt" name="Gerente"/>
+          <nls languageCode="pl" name="Menedżer"/>
+          <nls languageCode="sv" name="Chef"/>
+          <nls languageCode="fr" name="Responsable"/>
+          <nls languageCode="en" name="Manager"/>
+          <nls languageCode="ru" name="Менеджер"/>
+          <nls languageCode="es" name="Gestor"/>
+          <nls languageCode="ja" name="マネージャ"/>
+          <nls languageCode="nl" name="Manager"/>
+        </column>
+        <column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="pmo" isEditable="false" position="5"
+          showHeaderLabel="true" showSeparator="true" type="label">
+          <nls languageCode="da" name="pmo"/>
+          <nls languageCode="zh" name="pmo"/>
+          <nls languageCode="it" name="pmo"/>
+          <nls languageCode="tr" name="pmo"/>
+          <nls languageCode="no" name="pmo"/>
+          <nls languageCode="hu" name="pmo"/>
+          <nls languageCode="ko" name="pmo"/>
+          <nls languageCode="cs" name="pmo"/>
+          <nls languageCode="de" name="pmo"/>
+          <nls languageCode="fi" name="pmo"/>
+          <nls languageCode="pt" name="PMO"/>
+          <nls languageCode="pl" name="pmo"/>
+          <nls languageCode="zh_TW" name="pmo"/>
+          <nls languageCode="sv" name="pmo"/>
+          <nls languageCode="fr" name="pmo"/>
+          <nls languageCode="en" name="PMO"/>
+          <nls languageCode="ru" name="pmo"/>
+          <nls languageCode="es" name="pmo"/>
+          <nls languageCode="ja" name="pmo"/>
+          <nls languageCode="nl" name="pmo"/>
+        </column>
+        <column align="left" allowEditing="false" allowHeaderWrapping="false" allowWrapping="true" code="project_name" isEditable="false"
+          position="-1" showHeaderLabel="true" showSeparator="true" type="label">
+          <nls languageCode="da" name="project_name"/>
+          <nls languageCode="zh" name="project_name"/>
+          <nls languageCode="it" name="project_name"/>
+          <nls languageCode="tr" name="project_name"/>
+          <nls languageCode="no" name="project_name"/>
+          <nls languageCode="hu" name="project_name"/>
+          <nls languageCode="ko" name="project_name"/>
+          <nls languageCode="cs" name="project_name"/>
+          <nls languageCode="de" name="project_name"/>
+          <nls languageCode="fi" name="project_name"/>
+          <nls languageCode="zh_TW" name="project_name"/>
+          <nls languageCode="pt" name="project_name"/>
+          <nls languageCode="pl" name="project_name"/>
+          <nls languageCode="fr" name="project_name"/>
+          <nls languageCode="sv" name="project_name"/>
+          <nls languageCode="en" name="project_name"/>
+          <nls languageCode="ru" name="project_name"/>
+          <nls languageCode="es" name="project_name"/>
+          <nls languageCode="nl" name="project_name"/>
+          <nls languageCode="ja" name="project_name"/>
+        </column>
+        <OBSAssocs complete="false"/>
+        <Security/>
+          
+        <filter code="cabr_proj_import_custos" componentCode="odf" dataProviderId="cabr_proj_import_custo" dataProviderType="nsql" isCustomized="true"
+          objectCode="cabr_proj_import_custo" partitionCode="NIKU.ROOT">
+          <section collapsed="true" currentState="collapsed" filterByExpression="false">
+            <column sequence="1">
+              <viewFieldDescriptor active="true" aggregate="false" attributeCode="is_active" dataSize="20" decimals="2" extType="double"
+                fixedWidget="false" hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false"
+                required="true" virtual="false" widgetType="numeric" width="20">
+                <nls languageCode="cs" name="is_active"/>
+                <nls languageCode="da" name="is_active"/>
+                <nls languageCode="de" name="is_active"/>
+                <nls languageCode="en" name="is_active"/>
+                <nls languageCode="es" name="is_active"/>
+                <nls languageCode="fi" name="is_active"/>
+                <nls languageCode="fr" name="is_active"/>
+                <nls languageCode="hu" name="is_active"/>
+                <nls languageCode="it" name="is_active"/>
+                <nls languageCode="ja" name="is_active"/>
+                <nls languageCode="ko" name="is_active"/>
+                <nls languageCode="nl" name="is_active"/>
+                <nls languageCode="no" name="is_active"/>
+                <nls languageCode="pl" name="is_active"/>
+                <nls languageCode="pt" name="is_active"/>
+                <nls languageCode="ru" name="is_active"/>
+                <nls languageCode="sv" name="is_active"/>
+                <nls languageCode="tr" name="is_active"/>
+                <nls languageCode="zh" name="is_active"/>
+                <nls languageCode="zh_TW" name="is_active"/>
+                <defaultValue value="1"/>
+              </viewFieldDescriptor>
+              <viewFieldDescriptor active="true" aggregate="false" attributeCode="financial_status" dataSize="200" decimals="0" fixedWidget="false"
+                hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="true"
+                virtual="false" widgetType="textexact" width="30">
+                <nls languageCode="cs" name="financial_status"/>
+                <nls languageCode="da" name="financial_status"/>
+                <nls languageCode="de" name="financial_status"/>
+                <nls languageCode="en" name="financial_status"/>
+                <nls languageCode="es" name="financial_status"/>
+                <nls languageCode="fi" name="financial_status"/>
+                <nls languageCode="fr" name="financial_status"/>
+                <nls languageCode="hu" name="financial_status"/>
+                <nls languageCode="it" name="financial_status"/>
+                <nls languageCode="ja" name="financial_status"/>
+                <nls languageCode="ko" name="financial_status"/>
+                <nls languageCode="nl" name="financial_status"/>
+                <nls languageCode="no" name="financial_status"/>
+                <nls languageCode="pl" name="financial_status"/>
+                <nls languageCode="pt" name="financial_status"/>
+                <nls languageCode="ru" name="financial_status"/>
+                <nls languageCode="sv" name="financial_status"/>
+                <nls languageCode="tr" name="financial_status"/>
+                <nls languageCode="zh" name="financial_status"/>
+                <nls languageCode="zh_TW" name="financial_status"/>
+                <defaultValue value="O"/>
+              </viewFieldDescriptor>
+            </column>
+            <nls languageCode="cs" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="da" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="de" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="en" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="es" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="fi" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="fr" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="hu" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="it" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="ja" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="ko" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="nl" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="no" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="pl" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="pt" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="ru" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="sv" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="tr" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="zh" name="CABR Projetos Importação Custos Filter"/>
+            <nls languageCode="zh_TW" name="CABR Projetos Importação Custos Filter"/>
+          </section>
+          <defaultDisplay>
+    
+            <viewFieldDescriptor active="true" aggregate="false" attributeCode="pmo" dataSize="200" decimals="0" fixedWidget="false" hidden="false"
+              isMVLookup="false" multiValued="false" notEqualXPath="false" readOnly="false" required="false" virtual="false" widgetType="text" width="20">
+              <nls languageCode="cs" name="pmo"/>
+              <nls languageCode="da" name="pmo"/>
+              <nls languageCode="de" name="pmo"/>
+              <nls languageCode="en" name="pmo"/>
+              <nls languageCode="es" name="pmo"/>
+              <nls languageCode="fi" name="pmo"/>
+              <nls languageCode="fr" name="pmo"/>
+              <nls languageCode="hu" name="pmo"/>
+              <nls languageCode="it" name="pmo"/>
+              <nls languageCode="ja" name="pmo"/>
+              <nls languageCode="ko" name="pmo"/>
+              <nls languageCode="nl" name="pmo"/>
+              <nls languageCode="no" name="pmo"/>
+              <nls languageCode="pl" name="pmo"/>
+              <nls languageCode="pt" name="pmo"/>
+              <nls languageCode="ru" name="pmo"/>
+              <nls languageCode="sv" name="pmo"/>
+              <nls languageCode="tr" name="pmo"/>
+              <nls languageCode="zh" name="pmo"/>
+              <nls languageCode="zh_TW" name="pmo"/>
+            </viewFieldDescriptor>
+            <viewFieldDescriptor active="true" aggregate="false" attributeCode="manager_code" dataSize="200" decimals="0" fixedWidget="false"
+              hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false"
+              virtual="false" widgetType="text" width="30">
+              <nls languageCode="cs" name="manager_code"/>
+              <nls languageCode="da" name="manager_code"/>
+              <nls languageCode="de" name="manager_code"/>
+              <nls languageCode="en" name="manager_code"/>
+              <nls languageCode="es" name="manager_code"/>
+              <nls languageCode="fi" name="manager_code"/>
+              <nls languageCode="fr" name="manager_code"/>
+              <nls languageCode="hu" name="manager_code"/>
+              <nls languageCode="it" name="manager_code"/>
+              <nls languageCode="ja" name="manager_code"/>
+              <nls languageCode="ko" name="manager_code"/>
+              <nls languageCode="nl" name="manager_code"/>
+              <nls languageCode="no" name="manager_code"/>
+              <nls languageCode="pl" name="manager_code"/>
+              <nls languageCode="pt" name="manager_code"/>
+              <nls languageCode="ru" name="manager_code"/>
+              <nls languageCode="sv" name="manager_code"/>
+              <nls languageCode="tr" name="manager_code"/>
+              <nls languageCode="zh" name="manager_code"/>
+              <nls languageCode="zh_TW" name="manager_code"/>
+            </viewFieldDescriptor>
+            <viewFieldDescriptor active="true" aggregate="false" attributeCode="manager_id" dataSize="200" decimals="0" fixedWidget="false"
+              hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false"
+              virtual="false" widgetType="text" width="30">
+              <nls languageCode="cs" name="manager_id"/>
+              <nls languageCode="da" name="manager_id"/>
+              <nls languageCode="de" name="manager_id"/>
+              <nls languageCode="en" name="manager_id"/>
+              <nls languageCode="es" name="manager_id"/>
+              <nls languageCode="fi" name="manager_id"/>
+              <nls languageCode="fr" name="manager_id"/>
+              <nls languageCode="hu" name="manager_id"/>
+              <nls languageCode="it" name="manager_id"/>
+              <nls languageCode="ja" name="manager_id"/>
+              <nls languageCode="ko" name="manager_id"/>
+              <nls languageCode="nl" name="manager_id"/>
+              <nls languageCode="no" name="manager_id"/>
+              <nls languageCode="pl" name="manager_id"/>
+              <nls languageCode="pt" name="manager_id"/>
+              <nls languageCode="ru" name="manager_id"/>
+              <nls languageCode="sv" name="manager_id"/>
+              <nls languageCode="tr" name="manager_id"/>
+              <nls languageCode="zh" name="manager_id"/>
+              <nls languageCode="zh_TW" name="manager_id"/>
+            </viewFieldDescriptor>
+            <viewFieldDescriptor active="true" aggregate="false" attributeCode="project_name" dataSize="200" decimals="0" fixedWidget="false"
+              hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false"
+              virtual="false" widgetType="text" width="30">
+              <nls languageCode="cs" name="project_name"/>
+              <nls languageCode="da" name="project_name"/>
+              <nls languageCode="de" name="project_name"/>
+              <nls languageCode="en" name="project_name"/>
+              <nls languageCode="es" name="project_name"/>
+              <nls languageCode="fi" name="project_name"/>
+              <nls languageCode="fr" name="project_name"/>
+              <nls languageCode="hu" name="project_name"/>
+              <nls languageCode="it" name="project_name"/>
+              <nls languageCode="ja" name="project_name"/>
+              <nls languageCode="ko" name="project_name"/>
+              <nls languageCode="nl" name="project_name"/>
+              <nls languageCode="no" name="project_name"/>
+              <nls languageCode="pl" name="project_name"/>
+              <nls languageCode="pt" name="project_name"/>
+              <nls languageCode="ru" name="project_name"/>
+              <nls languageCode="sv" name="project_name"/>
+              <nls languageCode="tr" name="project_name"/>
+              <nls languageCode="zh" name="project_name"/>
+              <nls languageCode="zh_TW" name="project_name"/>
+            </viewFieldDescriptor>
+            <viewFieldDescriptor active="true" aggregate="false" attributeCode="unique_code" dataSize="200" decimals="0" fixedWidget="false"
+              hidden="false" isMVLookup="false" multiValued="false" notEqualXPath="false" numRows="0" readOnly="false" required="false"
+              virtual="false" widgetType="text" width="30">
+              <nls languageCode="cs" name="unique_code"/>
+              <nls languageCode="da" name="unique_code"/>
+              <nls languageCode="de" name="unique_code"/>
+              <nls languageCode="en" name="unique_code"/>
+              <nls languageCode="es" name="unique_code"/>
+              <nls languageCode="fi" name="unique_code"/>
+              <nls languageCode="fr" name="unique_code"/>
+              <nls languageCode="hu" name="unique_code"/>
+              <nls languageCode="it" name="unique_code"/>
+              <nls languageCode="ja" name="unique_code"/>
+              <nls languageCode="ko" name="unique_code"/>
+              <nls languageCode="nl" name="unique_code"/>
+              <nls languageCode="no" name="unique_code"/>
+              <nls languageCode="pl" name="unique_code"/>
+              <nls languageCode="pt" name="unique_code"/>
+              <nls languageCode="ru" name="unique_code"/>
+              <nls languageCode="sv" name="unique_code"/>
+              <nls languageCode="tr" name="unique_code"/>
+              <nls languageCode="zh" name="unique_code"/>
+              <nls languageCode="zh_TW" name="unique_code"/>
+            </viewFieldDescriptor>
+          </defaultDisplay>
+        </filter>
+      </gridPortlet>
+    </portlets>
+  </contentPack>
+</NikuDataBus>

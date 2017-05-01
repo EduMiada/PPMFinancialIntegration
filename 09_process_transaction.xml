@@ -1,0 +1,218 @@
+
+<NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_contentPack.xsd"><Header action="write" externalSource="NIKU" objectType="contentPack" version="13.3.0.286"/><contentPack update="true"><Processes><Process allowOneRunningInstance="false" code="cabr_process_transactions" createdBy="admprj" endStep="Término" source="customer"
+    startOption="ON_DEMAND" startStep="Início"><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="cs" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="da" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="de" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados&#xd;&#xa;&#xd;&#xa;BACKUP"
+      languageCode="en" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="es" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="fi" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="fr" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="hu" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="it" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="ja" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="ko" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="nl" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="no" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="pl" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="pt" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="ru" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="sv" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="tr" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="zh" name="03 - Processa Transações"/><nls
+      description="Gera transações financeiras ou registros de transacao de caixa a partir dos registros cadastrados nas tabelas de Registros Importados"
+      languageCode="zh_TW" name="03 - Processa Transações"/><Security><GroupSecurity groupCode="rnv_eng_financeiro" rightCode="PROCESS-DEF-INST-READ"/><GroupSecurity groupCode="rnv_eng_financeiro" rightCode="PROCESS-DEF-INST-START"/><GroupSecurity groupCode="rnv_eng_financeiro" rightCode="PROCESS-RUN-INST-CANCEL"/><GroupSecurity groupCode="rnv_eng_financeiro" rightCode="PROCESS-RUN-INST-DELETE"/><UserSecurity rightCode="PROCESS-DEF-INST-INITIATE" userName="admprj"/><UserSecurity rightCode="PROCESS-DEF-INST-WRITE" userName="admprj"/><UserSecurity rightCode="PROCESS-DEF-INST-START" userName="xog_user"/></Security><Objects><Object manualStart="true" name="thiscabr" objectType="cabr_int_financials" partitionCode="NIKU.ROOT" partitionModeCode="PARTITION_ONLY" type="BPM_POT_PRIMARY"/></Objects><Steps><Step id="Início" isMileStone="false" sequenceNo="1"><nls languageCode="cs" name="Início"/><nls languageCode="da" name="Início"/><nls languageCode="de" name="Início"/><nls languageCode="en" name="Início"/><nls languageCode="es" name="Início"/><nls languageCode="fi" name="Início"/><nls languageCode="fr" name="Início"/><nls languageCode="hu" name="Início"/><nls languageCode="it" name="Início"/><nls languageCode="ja" name="Início"/><nls languageCode="ko" name="Início"/><nls languageCode="nl" name="Início"/><nls languageCode="no" name="Início"/><nls languageCode="pl" name="Início"/><nls languageCode="pt" name="Início"/><nls languageCode="ru" name="Início"/><nls languageCode="sv" name="Início"/><nls languageCode="tr" name="Início"/><nls languageCode="zh" name="Início"/><nls languageCode="zh_TW" name="Início"/><Notifications notifyOwner="false"><NotifyWhen stepCompleted="false" stepInError="false" stepStarted="false"/><Assignees/></Notifications><Operations/><TransitionRestrictions><TransitionRestriction><Join type="BPM_JT_NONE"><Condition sequencNo="1" type="BPM_SCT_PRECONDITION"/></Join></TransitionRestriction><TransitionRestriction><Split type="BPM_ST_SEQUENCE"><Condition sequencNo="1" type="BPM_SCT_POSTCONDITION"><Transitions><Transition to="processa_trans"/></Transitions></Condition></Split></TransitionRestriction></TransitionRestrictions></Step><Step id="Término" isMileStone="false" sequenceNo="2"><nls languageCode="cs" name="Término"/><nls languageCode="da" name="Término"/><nls languageCode="de" name="Término"/><nls languageCode="en" name="Término"/><nls languageCode="es" name="Término"/><nls languageCode="fi" name="Término"/><nls languageCode="fr" name="Término"/><nls languageCode="hu" name="Término"/><nls languageCode="it" name="Término"/><nls languageCode="ja" name="Término"/><nls languageCode="ko" name="Término"/><nls languageCode="nl" name="Término"/><nls languageCode="no" name="Término"/><nls languageCode="pl" name="Término"/><nls languageCode="pt" name="Término"/><nls languageCode="ru" name="Término"/><nls languageCode="sv" name="Término"/><nls languageCode="tr" name="Término"/><nls languageCode="zh" name="Término"/><nls languageCode="zh_TW" name="Término"/><Notifications notifyOwner="false"><NotifyWhen stepCompleted="false" stepInError="false" stepStarted="false"/><Assignees/></Notifications><Operations/><TransitionRestrictions><TransitionRestriction><Join type="BPM_JT_NONE"><Condition sequencNo="1" type="BPM_SCT_PRECONDITION"/></Join></TransitionRestriction><TransitionRestriction><Split type="BPM_ST_SEQUENCE"><Condition sequencNo="1" type="BPM_SCT_POSTCONDITION"><Transitions/></Condition></Split></TransitionRestriction></TransitionRestrictions></Step><Step id="processa_trans" isMileStone="false" sequenceNo="3"><nls languageCode="cs" name="Processa Transacoes"/><nls languageCode="da" name="Processa Transacoes"/><nls languageCode="de" name="Processa Transacoes"/><nls languageCode="en" name="Processa Transacoes"/><nls languageCode="es" name="Processa Transacoes"/><nls languageCode="fi" name="Processa Transacoes"/><nls languageCode="fr" name="Processa Transacoes"/><nls languageCode="hu" name="Processa Transacoes"/><nls languageCode="it" name="Processa Transacoes"/><nls languageCode="ja" name="Processa Transacoes"/><nls languageCode="ko" name="Processa Transacoes"/><nls languageCode="nl" name="Processa Transacoes"/><nls languageCode="no" name="Processa Transacoes"/><nls languageCode="pl" name="Processa Transacoes"/><nls languageCode="pt" name="Processa Transacoes"/><nls languageCode="ru" name="Processa Transacoes"/><nls languageCode="sv" name="Processa Transacoes"/><nls languageCode="tr" name="Processa Transacoes"/><nls languageCode="zh" name="Processa Transacoes"/><nls languageCode="zh_TW" name="Processa Transacoes"/><Notifications notifyOwner="false"><NotifyWhen stepCompleted="false" stepInError="false" stepStarted="false"/><Assignees/></Notifications><Operations><Action code="processa" synchronized="true" type="BPM_SAT_CUSTOM"><nls languageCode="cs" name="processa"/><nls languageCode="da" name="processa"/><nls languageCode="de" name="processa"/><nls languageCode="en" name="processa"/><nls languageCode="es" name="processa"/><nls languageCode="fi" name="processa"/><nls languageCode="fr" name="processa"/><nls languageCode="hu" name="processa"/><nls languageCode="it" name="processa"/><nls languageCode="ja" name="processa"/><nls languageCode="ko" name="processa"/><nls languageCode="nl" name="processa"/><nls languageCode="no" name="processa"/><nls languageCode="pl" name="processa"/><nls languageCode="pt" name="processa"/><nls languageCode="ru" name="processa"/><nls languageCode="sv" name="processa"/><nls languageCode="tr" name="processa"/><nls languageCode="zh" name="processa"/><nls languageCode="zh_TW" name="processa"/><customScript languageCode="gel"><scriptText><gel:script xmlns:core="jelly:core" xmlns:gel="jelly:com.niku.union.gel.GELTagLibrary" xmlns:sql="jelly:sql" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><!--PARAMETERS--><gel:parameter default="admprj" var="XOG_USER_NAME"/><gel:parameter default="clarity" secure="true" var="XOG_PASSWORD"/><gel:parameter default="/fs0/clarity1/share/includes/" var="INCLUDE_FOLDER"/><gel:parameter default="/fs0/clarity1/share/entrada/processado/" var="TARGET_FOLDER"/><gel:parameter default="1" var="DebugLevel"/><!--PARAMETERS--><!--VARIAVEIS UTILIZADAS INCLUDES XOG--><core:set value="" var="XOG_SERVER_URL"/><core:set value="" var="XOG_SESSION_ID"/><core:set value="" var="XOG_STATUS_STATE"/><core:set value="" var="XOG_FAILURE_RECORDS"/><core:set value="" var="XOG_INSERTED_RECORDS"/><core:set value="" var="XOG_UPDATED_RECORDS"/><core:set value="" var="XOG_TOTAL_RECORDS"/><core:set value="" var="XOG_REF_NUMBER"/><core:set value="" var="XOG_ERR_INFORMATION"/><core:set value="" var="XOG_SERIALIZED_FILE"/><core:set value="" var="XOG_SERIALIZED_OUTPUT_FILE"/><core:set value="" var="XOG_EXCEPTION"/><!--FIM VARIAVEIS UTILIZADAS INCLUDES XOG--><!--VARIAVEIS DE APOIO--><core:set value="" var="MAIL_TO_ADMIN"/><core:set value="" var="MAIL_TO_WIP"/><!--PREENCHE URL DO SERVIDOR --><core:include file="${INCLUDE_FOLDER}gel_include_get_server_url.xml"/><core:if test="${XOG_SERVER_URL == null}"><gel:log level="ERROR" message="Nao foi possivel identificar URL Servidor XOG: ${XOG_EXCEPTION}"/></core:if><!--FIM PREENCHE URL DO SERVIDOR --><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="LOG001a: Username = ${XOG_USER_NAME}"/><gel:log level="debug" message="LOG001c: URL = ${XOG_SERVER_URL}"/><gel:log level="debug" message="LOG001d: LogFolder = ${TARGET_FOLDER}"/><gel:log level="debug" message="LOG001d: gel_objectInstanceId = ${gel_objectInstanceId}"/></core:if><!--CONNECT TO THE DB--><gel:setDataSource dbId="niku" var="NikuDS"/><!--INICIO: Preenche valores default das transacoes cadastrado no objeto--><sql:query dataSource="${NikuDS}" escapeText="false" var="sqlResult"><![CDATA[
+		SELECT 	rnv_mail_error, rnv_mail_wip
+		FROM odf_ca_cabr_int_financials WHERE id = ${gel_objectInstanceId}
+		]]></sql:query><core:forEach items="${sqlResult.rows}" trim="true" var="r"><!--EMAIL NOTIFICACOES--><core:set value="${r.rnv_mail_error}" var="MAIL_TO_ADMIN"/><core:set value="${r.rnv_mail_wip}" var="MAIL_TO_WIP"/></core:forEach><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="LOG001f: email admin = ${MAIL_TO_ADMIN}"/><gel:log level="debug" message="LOG001g: email wip = ${MAIL_TO_WIP}"/></core:if><!--VERIFICA SE EXISTEM REGISTRO INVALIDADOS NA TABELA STAGGIN --><core:set value="0" var="HAS_INVALID_ROWS"/><sql:query dataSource="${NikuDS}" escapeText="false" var="sqlResult"><![CDATA[
+		SELECT 	NVL(count(*),0) contador from odf_ca_cabr_int_fin_staging 
+		WHERE odf_parent_id = ${gel_objectInstanceId} AND acao = 'I' AND validated != 1 
+		]]></sql:query><core:forEach items="${sqlResult.rows}" trim="true" var="row"><core:set value="${row.contador}" var="HAS_INVALID_ROWS"/></core:forEach><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="LINHAS TABELA STAGGIN INVALIDAS: ${HAS_INVALID_ROWS}"/></core:if><!--FIM VERIFICACAO DE REGISTROS INVALIDOS --><!--NOTIFICA USUARIO QUE TRANSACOES NAO SERAO PROCESSADAS--><core:if test="${HAS_INVALID_ROWS != 0}"><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="EXISTEM LINHAS NAO VALIDADAS NA TABELA STAGGING_DATA SAINDO DA ROTINA"/></core:if><!--gel:email from="admin-clarity@clarity.com" 
+			fromName="Clarity Admin" 
+			subject="[CLARITY - PROTHEUS - PROCESSAMENTO] - NÃO FOI POSSÍVEL PROCESSAR TRANSAÇÕES : ${gel_objectInstanceId}"
+			to="${MAIL_TO}"><![CDATA[
+
+			Não foi possível gerar transações. Existe(m) registro(s) inválido(s) na tabela "Registros Importados". </br>
+			Favor validar todos os registros antes do processamento.
+			]]></gel:email--></core:if><!--PROCESSA TRANSACOES SE NAO TIVER NENHUM REGISTROS INVALIDOS --><core:if test="${HAS_INVALID_ROWS == 0}"><!--VERIFICA SE TEM ALGUM REGISTRO NA TABELA STAGGING PARA SER PROCESSADO--><sql:query dataSource="${NikuDS}" escapeText="false" var="sqlResult"><![CDATA[
+			SELECT 	NVL(count(*),0) contador from odf_ca_cabr_int_fin_staging 
+			WHERE odf_parent_id = ${gel_objectInstanceId}  
+			]]></sql:query><core:set value="0" var="HAS_ROWS"/><core:forEach items="${sqlResult.rows}" trim="true" var="row"><core:set value="${row.contador}" var="HAS_ROWS"/></core:forEach><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="LINHAS NA TABELA STAGGING_DATA: ${HAS_ROWS}"/></core:if><!--FAZ LOGON E RETORNA SESSIONID--><core:include file="${INCLUDE_FOLDER}gel_include_logon_server.xml"/><core:if test="${XOG_SESSION_ID == null}"><gel:log level="ERROR" message="Nao foi possivel realizar logon Clarity: ${XOG_EXCEPTION}"/></core:if><!--FIM LOGON E RETORNA SESSIONID--><!--INICIO PROCESSA SOMENTE SE EXISTIR LINHAS NA TABELA STAGGIN --><core:if test="${HAS_ROWS != 0}"><core:if test="${XOG_SESSION_ID != null}"><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="Inicia rotinas de processamento"/></core:if><sql:update dataSource="${NikuDS}" var="sqlResult">	
+							INSERT INTO odf_ca_cabr_int_fin_PROC (	
+								ID,
+								created_date,
+								created_by,
+								last_updated_date,
+								last_updated_by,
+								partition_code,
+								NAME,
+								CODE ,
+								odf_parent_id,
+								odf_cncrt_parent_id,
+								groupid,
+								vouchernumber,
+								transactiondate,
+								projectcode,
+								taskid, 
+								resourcecode,
+								rolecode,
+								notes,
+								inputtypecode,
+								chargecode,
+								transactionclass,
+								externalid,
+								transactiontype,
+								units,
+								actualcostrate,
+								actualcostratecur,
+								billrate,
+								billratecur,
+								chargeable,
+								validated,
+								validation_msg,
+								processed,
+								acao,
+								comentarios,
+								sic_codigo_sgd,
+								projmanager,
+								controlID,
+								userLov1,
+								userLov2,
+								vendorCode) 
+
+							SELECT 
+								ODF_CA_CABR_INT_FIN_PROC_S1.NEXTVAL,
+								sysdate,
+								created_by,
+								last_updated_date,
+								last_updated_by,
+								partition_code,
+								name || '-' || ${gel_processInstanceId}, 
+								code || '-' || ${gel_processInstanceId}, 
+								odf_parent_id,
+								odf_cncrt_parent_id,
+								groupid,
+								vouchernumber,
+								transactiondate,
+								projectcode,
+								taskid, 
+								resourcecode,
+								rolecode,
+								notes,
+								inputtypecode,
+								chargecode,
+								transactionclass,
+								externalid,
+								transactiontype,
+								units,
+								actualcostrate,
+								actualcostratecur,
+								billrate, 
+								billratecur,
+								chargeable,
+								validated,
+								validation_msg, 
+								0,
+								acao,
+								comentarios,
+								sic_codigo_sgd,
+								projmanager,
+								${gel_processInstanceId},
+								userLov1,
+								userLov2,
+								vendorCode
+								
+							from odf_ca_cabr_int_fin_staging WHERE odf_parent_id = ${gel_objectInstanceId}
+						</sql:update><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="Registros inseridos na tabela de processamento - ${sqlResult.getRowCount()}"/></core:if><!--CLEAN STAGING TABLE--><sql:update dataSource="${NikuDS}" var="sqlResult">	
+							DELETE FROM odf_ca_cabr_int_fin_staging WHERE odf_parent_id = ${gel_objectInstanceId}
+						</sql:update><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="Registros excluidos da tabela staging - ${sqlResult.getRowCount()}"/></core:if><!--SELECT VALIDATED RECORDS--><sql:query dataSource="${NikuDS}" escapeText="false" var="rs"><![CDATA[
+							SELECT 
+								t.groupid,
+								t.vouchernumber,
+								TO_CHAR(t.transactiondate, 'YYYY-MM-DD') transactiondate,
+								t.projectcode,
+								t.taskid, 
+								t.resourcecode,
+								t.rolecode,
+								t.notes,
+								t.inputtypecode,
+								t.chargecode,
+								t.transactionclass,
+								t.externalid,
+								t.transactiontype,
+								t.units,
+								t.actualcostrate,
+								t.actualcostratecur,
+								t.billrate,
+								t.billratecur,
+								t.chargeable,
+								t.ID,
+								t.userLov1,
+								t.userLov2,
+								t.vendorCode,
+								p.id projectID,
+								nvl(f.cashtransaction,0) cashtransaction,
+								f.rnv_mail_error,
+								f.rnv_mail_wip
+							from odf_ca_cabr_int_fin_PROC t
+							inner join srm_projects p on t.projectcode = p.unique_name
+							inner join odf_ca_cabr_int_financials f on t.odf_parent_id = f.id
+							WHERE t.validated = 1 AND t.processed = 0 AND t.controlID = ${gel_processInstanceId}
+					]]></sql:query><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="Registros validados para processamento - ${rs.getRowCount()}"/></core:if><!--INICIO LOOP NOS REGISTROS--><core:forEach items="${rs.rows}" trim="true" var="row"><!--GENERATE XML SECTION FOR PROJECT--><gel:parse var="xmldoc"><!--CARREGA TRANSACOES FINANCEIRAS SE A INSNTANCIA PAI NAO FOR LANCAMENTO DE CAIXA - CASHTRANSACTION--><core:if test="${row.cashtransaction==0}"><NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_inboundTransaction.xsd"><Header action="write" externalSource="ORACLE-FINANCIAL" objectType="transaction" version="13.0.1.0102"/><Transactions><Transaction actualCostRate="${row.actualcostrate}" actualCostRateCurrency="${row.actualcostratecur}"
+                                    billRate="${row.billrate}" billRateCurrency="${row.billratecur}" chargeCode="${row.chargecode}"
+                                    chargeable="${row.chargeable}" externalID="${row.externalid}" groupId="${row.groupid}" importStatus="N"
+                                    inputTypeCode="${row.inputtypecode}" notes="${row.notes}" projectID="${row.projectcode}"
+                                    resourceID="${row.resourcecode}" roleID="${row.rolecode}" taskID="${row.taskid}"
+                                    transactionClass="${row.transactionclass}" transactionDate="${row.transactiondate}"
+                                    transactionType="${row.transactiontype}" units="${row.units}" userLov1="${row.userLov1}"
+                                    userLov2="${row.userLov2}" vendorCode="${row.vendorCode}" voucherNumber="${row.vouchernumber}"/></Transactions></NikuDataBus></core:if><!--FIM XMLPARSE TRANSACOES FINANCEIRAS--><!--CARREGA INSTANCIAS DE VALORES DE TRANSACAO DE CAIXA--><core:if test="${row.cashtransaction==1}"><NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_customObjectInstance.xsd"><Header action="write" externalSource="NIKU" objectType="customObjectInstance" version="13.0.1.0102"/><customObjectInstances objectCode="cabr_int_fin_cash"><instance instanceCode="${row.vouchernumber}" objectCode="cabr_int_fin_cash" parentInstanceCode="${row.projectcode}" parentObjectCode="project"><CustomInformation><!--ColumnValue name="partition_code">rnv_corporativo</ColumnValue--><ColumnValue name="name">${row.vouchernumber}</ColumnValue><ColumnValue name="code">${row.vouchernumber}</ColumnValue><ColumnValue name="odf_parent_id">${row.projectID}</ColumnValue><ColumnValue name="odf_cncrt_parent_id">${row.projectID}</ColumnValue><!--valores iguais aos da transacao minusculo--><ColumnValue name="actualcostrate">${row.actualcostrate}</ColumnValue><ColumnValue name="actualcostratecur">${row.actualcostratecur}</ColumnValue><ColumnValue name="billrate">${row.billrate}</ColumnValue><ColumnValue name="billratecur">${row.billratecur}</ColumnValue><ColumnValue name="chargecode">${row.chargecode}</ColumnValue><ColumnValue name="externalid">${row.externalid}</ColumnValue><ColumnValue name="groupid">${row.groupid}</ColumnValue><ColumnValue name="inputtypecode">${row.inputtypecode}</ColumnValue><ColumnValue name="notes">${row.notes}</ColumnValue><ColumnValue name="projectcode">${row.projectcode}</ColumnValue><ColumnValue name="resourcecode">${row.resourcecode}</ColumnValue><ColumnValue name="rolecode">${row.rolecode}</ColumnValue><ColumnValue name="taskid">${row.taskid}</ColumnValue><ColumnValue name="transactionclass">${row.transactionclass}</ColumnValue><ColumnValue name="transactiondate">${row.transactiondate}</ColumnValue><ColumnValue name="transactiontype">${row.transactiontype}</ColumnValue><ColumnValue name="units">${row.units}</ColumnValue><ColumnValue name="vouchernumber">${row.vouchernumber}</ColumnValue><ColumnValue name="userlov1">${row.userLov1}</ColumnValue><ColumnValue name="userlov2">${row.userLov2}</ColumnValue><ColumnValue name="vendorcode">${row.vendorCode}</ColumnValue></CustomInformation><OBSAssocs complete="false"/><!--Security><UserSecurity rightCode="odf_cst_cabr_transact_cash_edit" userName="admprj"/></Security--></instance></customObjectInstances></NikuDataBus></core:if><!--CARREGA INSTANCIAS DE VALORES DE TRANSACAO DE CAIXA--></gel:parse><!--ADD the project on main file --><!--<gel:set insert="true" select="$xmldoc/NikuDataBus/Transactions" value="${xmldoc_instance}"/>--><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="XMLDoc gerado para linha: ${row.id} - ${row.groupid} - ${row.projectcode}"/></core:if><!--PREENCHE VARIAVEIS DE ARQUVISO XOG--><core:set value="${TARGET_FOLDER}XOG_IMP_TRANSACT_PID_${gel_processInstanceId}_${row.id}.XML" var="XOG_SERIALIZED_FILE"/><core:set value="${TARGET_FOLDER}XOG_IMP_TRANSACT_PID_${gel_processInstanceId}_${row.id}_OUTPUT.XML" var="XOG_SERIALIZED_OUTPUT_FILE"/><!--FAZ CHAMADA XOG--><core:include file="${INCLUDE_FOLDER}gel_include_invoke_ws.xml"/><!--core:if test="${XOG_EXCEPTION != null}"--><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="Chamada XOG Realizada"/></core:if><!--
+						CHECK FOR ANY EXCEPTION DURING THE XOG CALL
+						IF ERROR UPDATE THE RECORD OTHERWISE PROCEED 
+					--><core:set value="0" var="upd_processed"/><core:if test="${XOG_EXCEPTION != null}"><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="Erro na Execucao da XOG - ${XOG_EXCEPTION}"/><gel:log level="debug" message="Atualizando status de erro de processamento e mensagem de erro na linha ID=${row.id}"/></core:if><sql:update dataSource="${NikuDS}" var="sqlResult"><![CDATA[
+									UPDATE odf_ca_cabr_int_fin_PROC 
+										SET processed = 0,
+											processed_msg = 'ERRO CHAMADA XOG: ' || substr('${XOG_EXCEPTION}',1,1900)
+									WHERE ID = ${row.id} AND controlID = '${gel_processInstanceId}'
+								]]></sql:update><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="Status de erro e mensagens atualizados - ${sqlResult.getRowCount()}"/></core:if></core:if><!--
+						END CHECK FOR ANY EXCEPTION DURING THE XOG CALL
+						IF ERROR UPDATE THE RECORD OTHERWISE PROCEED 
+					--><core:set value="0" var="upd_processed"/><!--READ OUTPUT--><core:if test="${XOG_EXCEPTION == null}"><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="XOG_STATUS_STATE : ${XOG_STATUS_STATE}"/><gel:log level="debug" message="XOG_FAILURE_RECORDS : ${XOG_FAILURE_RECORDS}"/><gel:log level="debug" message="XOG_INSERTED_RECORDS: ${XOG_INSERTED_RECORDS}"/><gel:log level="debug" message="XOG_UPDATED_RECORDS : ${XOG_UPDATED_RECORDS}"/><gel:log level="debug" message="XOG_TOTAL_RECORDS : ${XOG_TOTAL_RECORDS}"/><gel:log level="debug" message="XOG_REF_NUMBER  : ${XOG_REF_NUMBER}"/><gel:log level="debug" message="XOG_ERR_INFORMATION : ${XOG_ERR_INFORMATION}"/></core:if><!--ATUALIZADO COM SUCESSO--><core:if test="${XOG_STATUS_STATE == 'SUCCESS'}"><core:set value="1" var="upd_processed"/></core:if></core:if><!--END READ OUTPUT--><core:if test="${XOG_EXCEPTION != null}"><gel:log level="debug" message="XOG INVOKED: ${XOG_EXCEPTION}"/></core:if><core:if test="${DebugLevel > 0}"><gel:set asString="true" select="$vResults" var="XOG_MESSAGE"/><gel:log level="debug" message="RETURN: ${XOG_MESSAGE}"/></core:if><!--UPDATE PROCESSED RECORD--><core:catch var="sqlException"><sql:update dataSource="${NikuDS}" var="sqlResult"><![CDATA[
+							UPDATE odf_ca_cabr_int_fin_PROC 
+								SET processed = ${upd_processed},
+									processed_msg = substr('${XOG_MESSAGE}',1,1900) 
+							WHERE ID = ${row.id} AND controlID = '${gel_processInstanceId}'
+							]]></sql:update></core:catch><core:if test="${sqlException != null}"><gel:log level="debug" message="Erro ao atualizar status de erro registro - ${sqlException}"/></core:if><!--END UPDATE PROCESSED RECORD--></core:forEach><!--NOTIFICA ADMIN SOBRE TRANSACOES PRONTAS PARA POST TO WIP E COM ERROS DE PROCESSAMENTO--><sql:query dataSource="${NikuDS}" escapeText="false" var="sqlResult"><![CDATA[
+					SELECT 	sum(nvl(processed,0)) processed, nvl(count(*),0) total from odf_ca_cabr_int_fin_PROC 
+					WHERE odf_parent_id = ${gel_objectInstanceId} AND controlID = '${gel_processInstanceId}' 
+					]]></sql:query><core:forEach items="${sqlResult.rows}" trim="true" var="row"><core:set value="${row.processed}" var="countProcessed"/><core:set value="${row.total}" var="countTotal"/></core:forEach><core:if test="${DebugLevel > 0}"><gel:log level="debug" message="REGISTROS PROCESSADOS COM SUCESSO: ${countProcessed} TOTAL DE REGISTROS: ${countTotal}"/><gel:log level="debug" message="CASH TRANSACTION: ${row.cashtransaction}"/></core:if><core:if test="${countProcessed == countTotal}"><core:if test="${row.cashtransaction != 1}"><gel:log level="debug" message="competencia"/><gel:email from="admin-clarity@clarity.com" fromName="Clarity Admin"
+                              subject="[CLARITY - PROTHEUS - PROCESSAMENTO] - PASSO 03: TRANSAÇÕES PROCESSADAS PRONTAS PARA POST TO WIP : ${gel_objectInstanceId}" to="${MAIL_TO_WIP}"><![CDATA[					
+							
+							Transações disponíveis para Post To WIP: ${countProcessed}</br>	
+							]]></gel:email></core:if></core:if><core:if test="${countProcessed != countTotal}"><gel:email from="admin-clarity@clarity.com" fromName="Clarity Admin"
+                            subject="[CLARITY - PROTHEUS - PROCESSAMENTO] - PASSO 03: ERRO NO PROCESSAMENTO DE TRANSAÇÕES : ${gel_objectInstanceId}" to="${MAIL_TO_ADMIN}"><![CDATA[
+						
+						Não foi possível processar todas as transações verifique erros de processamento em "Registros Processados"</br>
+						
+						Instância Integração: ${gel_objectInstanceId}</br>
+						Instância Processo: ${gel_processInstanceId} </br>
+						]]></gel:email><!--FIM NOTIFICA ADMIN SOBRE TRANSACOES PRONTAS PARA POST TO WIP E COM ERROS DE PROCESSAMENTO--></core:if><!--FIM PROCESSA SE TIVER  XOG_SESSION_ID--></core:if><!--FIM PROCESSA SOMENTE SE EXISTIR LINHAS NA TABELA STAGGIN --></core:if><!--FIM PROCESSA TRANSACOES SE NAO TIVER NENHUM REGISTROS INVALIDOS --></core:if></gel:script></scriptText><scriptParameter isSecure="false" name="XOG_USER_NAME" value="xog_user"/><scriptParameter isSecure="true" name="XOG_PASSWORD" value="[DES]xPAibXEGYtzFewI3ulWtRg=="/><scriptParameter isSecure="false" name="INCLUDE_FOLDER" value="/fs0/clarity1/share/includes/"/><scriptParameter isSecure="false" name="TARGET_FOLDER" value="/fs0/clarity1/share/entrada/processado/"/><scriptParameter isSecure="false" name="DebugLevel" value="2"/></customScript><Notifications notifyOwner="false"><NotifyWhen stepActionInError="false" stepActionPerformed="false"/><Assignees/></Notifications></Action></Operations><TransitionRestrictions><TransitionRestriction><Join type="BPM_JT_NONE"><Condition sequencNo="1" type="BPM_SCT_PRECONDITION"/></Join></TransitionRestriction><TransitionRestriction><Split type="BPM_ST_SEQUENCE"><Condition sequencNo="1" type="BPM_SCT_POSTCONDITION"><Transitions><Transition to="Término"/></Transitions></Condition></Split></TransitionRestriction></TransitionRestrictions></Step></Steps><Groups/><OBSAssocs complete="false"/></Process></Processes><lookups update="true"><staticLookup autoSuggestEnabled="true" autoSuggestMaxSuggestions="10" code="CAL_EVENT_PRIORITY" hiddenAttributeName="id" sortStyle="manual"
+    source="niku.com" status="active" update="true"><nls description="Priorita události kalendáře" languageCode="cs" name="Priorita kalendáře"/><nls description="Prioritet for kalenderaftale" languageCode="da" name="Kalenderprioritet"/><nls description="Kalenderereignis - Priorität" languageCode="de" name="Kalenderpriorität"/><nls description="Calendar Event Priority" languageCode="en" name="Calendar Priority"/><nls description="Prioridad de los eventos del calendario" languageCode="es" name="Prioridad del calendario"/><nls description="Kalenteritapahtuman prioriteetti" languageCode="fi" name="Kalenteriprioriteetti"/><nls description="Priorité des événements du calendrier" languageCode="fr" name="Priorité sur le calendrier"/><nls description="Naptáresemény prioritása" languageCode="hu" name="Naptár prioritása"/><nls description="Priorità eventi calendario" languageCode="it" name="Priorità calendario"/><nls description="カレンダ イベントの優先度" languageCode="ja" name="カレンダの優先度"/><nls description="일정 이벤트 우선 순위" languageCode="ko" name="일정 우선 순위"/><nls description="Prioriteit agenda-evenement" languageCode="nl" name="Agenda prioriteit"/><nls description="Kalenderbegivenhetsprioritet" languageCode="no" name="Kalenderprioritet"/><nls description="Priorytet zdarzenia w kalendarzu" languageCode="pl" name="Priorytet kalendarza"/><nls description="Prioridade do evento do calendário" languageCode="pt" name="Prioridade do calendário"/><nls description="Приоритет события календаря" languageCode="ru" name="Приоритет календаря"/><nls description="Prioritet för kalenderhändelse" languageCode="sv" name="Kalenderprioritet"/><nls description="Takvim Olayı Önceliği" languageCode="tr" name="Takvim Önceliği"/><nls description="日历事件优先级" languageCode="zh" name="日历优先级"/><nls description="行事曆事件優先順序" languageCode="zh_TW" name="行事曆優先順序"/><lookupValue code="CAL_LOW" sortOrder="1" status="active"><nls description="Nízké" languageCode="cs" name="Nízké"/><nls description="Lav" languageCode="da" name="Lav"/><nls description="Niedrig" languageCode="de" name="Niedrig"/><nls description="Low" languageCode="en" name="Low"/><nls description="Bajo" languageCode="es" name="Bajo"/><nls description="Matala" languageCode="fi" name="Matala"/><nls description="Faible" languageCode="fr" name="Faible"/><nls description="Alacsony" languageCode="hu" name="Alacsony"/><nls description="Bassa" languageCode="it" name="Bassa"/><nls description="低" languageCode="ja" name="低"/><nls description="낮음" languageCode="ko" name="낮음"/><nls description="Laag" languageCode="nl" name="Laag"/><nls description="Lav" languageCode="no" name="Lav"/><nls description="Niski" languageCode="pl" name="Niski"/><nls description="Baixo" languageCode="pt" name="Baixo"/><nls description="Низкий" languageCode="ru" name="Низкий"/><nls description="Låg" languageCode="sv" name="Låg"/><nls description="Düşük" languageCode="tr" name="Düşük"/><nls description="低" languageCode="zh" name="低"/><nls description="低" languageCode="zh_TW" name="低"/></lookupValue><lookupValue code="CAL_MEDIUM" sortOrder="2" status="active"><nls description="Střední" languageCode="cs" name="Střední"/><nls description="Mellem" languageCode="da" name="Mellem"/><nls description="Mittel" languageCode="de" name="Mittel"/><nls description="Medium" languageCode="en" name="Medium"/><nls description="Medio" languageCode="es" name="Medio"/><nls description="Keskisuuri" languageCode="fi" name="Keskisuuri"/><nls description="Moyen(ne)" languageCode="fr" name="Moyen(ne)"/><nls description="Közepes" languageCode="hu" name="Közepes"/><nls description="Media" languageCode="it" name="Media"/><nls description="中" languageCode="ja" name="中"/><nls description="중간" languageCode="ko" name="중간"/><nls description="Gemiddeld" languageCode="nl" name="Gemiddeld"/><nls description="Middels" languageCode="no" name="Middels"/><nls description="Średni" languageCode="pl" name="Średni"/><nls description="Médio" languageCode="pt" name="Médio"/><nls description="Средний" languageCode="ru" name="Средний"/><nls description="Medel" languageCode="sv" name="Medel"/><nls description="Orta" languageCode="tr" name="Orta"/><nls description="中" languageCode="zh" name="中"/><nls description="中" languageCode="zh_TW" name="中"/></lookupValue><lookupValue code="CAL_HIGH" sortOrder="3" status="active"><nls description="Vysoké" languageCode="cs" name="Vysoké"/><nls description="Høj" languageCode="da" name="Høj"/><nls description="Hoch" languageCode="de" name="Hoch"/><nls description="High" languageCode="en" name="High"/><nls description="Alto" languageCode="es" name="Alto"/><nls description="Korkea" languageCode="fi" name="Korkea"/><nls description="Elevé(e)" languageCode="fr" name="Elevé(e)"/><nls description="Magas" languageCode="hu" name="Magas"/><nls description="Alta" languageCode="it" name="Alta"/><nls description="高" languageCode="ja" name="高"/><nls description="높음" languageCode="ko" name="높음"/><nls description="Hoog" languageCode="nl" name="Hoog"/><nls description="Høy" languageCode="no" name="Høy"/><nls description="Wysoki" languageCode="pl" name="Wysoki"/><nls description="Alto" languageCode="pt" name="Alto"/><nls description="Высокий" languageCode="ru" name="Высокий"/><nls description="Hög" languageCode="sv" name="Hög"/><nls description="Yüksek" languageCode="tr" name="Yüksek"/><nls description="高" languageCode="zh" name="高"/><nls description="高" languageCode="zh_TW" name="高"/></lookupValue><displayedSuggestionAttributes><displayedSuggestionAttribute value="name"/></displayedSuggestionAttributes><searchedSuggestionAttributes><searchedSuggestionAttribute value="name"/></searchedSuggestionAttributes></staticLookup></lookups></contentPack><XOGOutput> <Object type="contentPack"/> <Status state="SUCCESS"/> <Statistics insertedRecords="0" failureRecords="0" totalNumberOfRecords="2" updatedRecords="0"/> <Records/> </XOGOutput></NikuDataBus>

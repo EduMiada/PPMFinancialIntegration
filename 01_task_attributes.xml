@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_contentPack.xsd">
+  <Header action="write" externalSource="NIKU" objectType="contentPack" version="13.3.0.286"/>
+  <contentPack update="true">
+    <objects>
+        <object code="task" entityCodeAttribute="odf_entity_code" fiscalPeriodTypeAttribute="odf_period_type" parentObjectCode="inv" periodEndAttribute="odf_period_end" periodStartAttribute="odf_period_start" raiseEvents="true" source="niku.com" update="true">
+		 <nls description="The Task Object" languageCode="en" name="Task"/>
+          <customAttribute active="true" code="cabr_tsk_has_cst" column="cabr_tsk_has_cst" constant="false" currencyConnected="false" custom="true" dataSize="20" dataType="number" editable="true" extendedType="boolean" multiValued="false" partitionCode="NIKU.ROOT" partitionMode="PARTITION_AND_ANSTRS_DESDNTS" presenceRequired="false" private="false" required="false" unique="false" virtual="false">
+            <nls languageCode="cs" name="Agregação de Custos"/>
+            <nls languageCode="da" name="Agregação de Custos"/>
+            <nls languageCode="de" name="Agregação de Custos"/>
+            <nls languageCode="en" name="Agregação de Custos"/>
+            <nls languageCode="es" name="Agregação de Custos"/>
+            <nls languageCode="fi" name="Agregação de Custos"/>
+            <nls languageCode="fr" name="Agregação de Custos"/>
+            <nls languageCode="hu" name="Agregação de Custos"/>
+            <nls languageCode="it" name="Agregação de Custos"/>
+            <nls languageCode="ja" name="Agregação de Custos"/>
+            <nls languageCode="ko" name="Agregação de Custos"/>
+            <nls languageCode="nl" name="Agregação de Custos"/>
+            <nls languageCode="no" name="Agregação de Custos"/>
+            <nls languageCode="pl" name="Agregação de Custos"/>
+            <nls languageCode="pt" name="Agregação de Custos"/>
+            <nls languageCode="ru" name="Agregação de Custos"/>
+            <nls languageCode="sv" name="Agregação de Custos"/>
+            <nls languageCode="tr" name="Agregação de Custos"/>
+            <nls languageCode="zh" name="Agregação de Custos"/>
+            <nls languageCode="zh_TW" name="Agregação de Custos"/>
+            <default value="0"/>
+          </customAttribute>
+          <autonumbering/>
+        </object>
+    </objects>
+    <partitionModels/>
+  </contentPack>
+  
+</NikuDataBus>

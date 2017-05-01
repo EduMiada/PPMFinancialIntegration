@@ -1,0 +1,28 @@
+
+<NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_contentPack.xsd"><Header action="write" externalSource="NIKU" objectType="contentPack" version="13.3.0.286"/><contentPack update="true"><queries update="true"><query code="cabr_proj_import_custo" isUserPortletAvailable="1" source="customer"><nls languageCode="cs" name="CABR Projetos Importação Custos"/><nls languageCode="da" name="CABR Projetos Importação Custos"/><nls languageCode="de" name="CABR Projetos Importação Custos"/><nls languageCode="en" name="CABR Projetos Importação Custos"/><nls languageCode="es" name="CABR Projetos Importação Custos"/><nls languageCode="fi" name="CABR Projetos Importação Custos"/><nls languageCode="fr" name="CABR Projetos Importação Custos"/><nls languageCode="hu" name="CABR Projetos Importação Custos"/><nls languageCode="it" name="CABR Projetos Importação Custos"/><nls languageCode="ja" name="CABR Projetos Importação Custos"/><nls languageCode="ko" name="CABR Projetos Importação Custos"/><nls languageCode="nl" name="CABR Projetos Importação Custos"/><nls languageCode="no" name="CABR Projetos Importação Custos"/><nls languageCode="pl" name="CABR Projetos Importação Custos"/><nls languageCode="pt" name="CABR Projetos Importação Custos"/><nls languageCode="ru" name="CABR Projetos Importação Custos"/><nls languageCode="sv" name="CABR Projetos Importação Custos"/><nls languageCode="tr" name="CABR Projetos Importação Custos"/><nls languageCode="zh" name="CABR Projetos Importação Custos"/><nls languageCode="zh_TW" name="CABR Projetos Importação Custos"/><nsql dbId="Niku" dbVendor="all"><![CDATA[SELECT   
+@SELECT:DIM:USER_DEF:IMPLIED:cabr:p.unique_code:unique_code@,
+@SELECT:DIM_PROP:USER_DEF:IMPLIED:cabr:TO_CHAR(p.manager_id):manager_id@,
+@SELECT:DIM_PROP:USER_DEF:IMPLIED:cabr:r.unique_name:manager_code@,
+@SELECT:DIM_PROP:USER_DEF:IMPLIED:cabr:p.name:project_name@,
+@SELECT:DIM_PROP:USER_DEF:IMPLIED:cabr:p.is_active:is_active@,
+@SELECT:DIM_PROP:USER_DEF:IMPLIED:cabr:ri.unique_name:pmo@,
+@SELECT:DIM_PROP:USER_DEF:IMPLIED:cabr:p.npio_status:financial_status@
+
+from odf_project_v2 p
+inner join prtask t on t.prprojectid = p.odf_pk
+inner join odf_ca_task odft on t.prid = odft.id and odft.cabr_tsk_has_cst = 1
+inner join srm_resources r on p.manager_id = r.user_id
+left join srm_resources ri on p.obj_stakeholder2 = ri.id
+
+WHERE
+@FILTER@
+
+group by 
+
+p.unique_code,
+TO_CHAR(p.manager_id),
+r.unique_name,
+p.name,
+p.is_active,
+ri.unique_name,
+p.npio_status]]></nsql><attribute id="pmo" required="false"/><attribute id="unique_code" required="false"/><attribute id="codigo_sgd" required="false"/><attribute id="manager_id" required="false"/><attribute id="manager_code" required="false"/><attribute id="project_name" required="false"/><attribute id="is_active" required="false"/><attribute id="financial_status" required="false"/></query></queries></contentPack><XOGOutput> <Object type="contentPack"/> <Status state="SUCCESS"/> <Statistics insertedRecords="0" failureRecords="0" totalNumberOfRecords="1" updatedRecords="0"/> <Records/> </XOGOutput></NikuDataBus>

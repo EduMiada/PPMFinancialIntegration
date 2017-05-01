@@ -1,0 +1,1001 @@
+<?xml version="1.0"?>
+<NikuDataBus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../xsd/nikuxog_contentPack.xsd">
+  <Header action="write" externalSource="NIKU" objectType="contentPack" version="13.3.0.286"/>
+  <contentPack update="true">
+    <lookups update="true">
+      <dynamicLookup autoSuggestEnabled="true" autoSuggestMaxSuggestions="10" code="CABR_INPUT_TYPE_CODE" displayAttributeName="name" hiddenAttributeName="code" objectCode="" sortAttributeName="name" sortDirection="asc" source="niku.com" status="active" update="true">
+        <nls description="" languageCode="cs" name="CABR Input Type Code"/>
+        <nls description="" languageCode="da" name="CABR Input Type Code"/>
+        <nls description="" languageCode="de" name="CABR Input Type Code"/>
+        <nls description="" languageCode="en" name="CABR Input Type Code"/>
+        <nls description="" languageCode="es" name="CABR Input Type Code"/>
+        <nls description="" languageCode="fi" name="CABR Input Type Code"/>
+        <nls description="" languageCode="fr" name="CABR Input Type Code"/>
+        <nls description="" languageCode="hu" name="CABR Input Type Code"/>
+        <nls description="" languageCode="it" name="CABR Input Type Code"/>
+        <nls description="" languageCode="ja" name="CABR Input Type Code"/>
+        <nls description="" languageCode="ko" name="CABR Input Type Code"/>
+        <nls description="" languageCode="nl" name="CABR Input Type Code"/>
+        <nls description="" languageCode="no" name="CABR Input Type Code"/>
+        <nls description="" languageCode="pl" name="CABR Input Type Code"/>
+        <nls description="" languageCode="pt" name="CABR Input Type Code"/>
+        <nls description="" languageCode="ru" name="CABR Input Type Code"/>
+        <nls description="" languageCode="sv" name="CABR Input Type Code"/>
+        <nls description="" languageCode="tr" name="CABR Input Type Code"/>
+        <nls description="" languageCode="zh" name="CABR Input Type Code"/>
+        <nls description="" languageCode="zh_TW" name="CABR Input Type Code"/>
+        <nsql databaseId="Niku" dbVendor="all"><![CDATA[SELECT  @SELECT:prExternalID:code@,               
+        @SELECT:prName:name@
+FROM    PRTypeCode               
+WHERE   @FILTER@
+AND     prIsOpen  != 0]]></nsql>
+        <displayedSuggestionAttributes>
+          <displayedSuggestionAttribute value="name"/>
+        </displayedSuggestionAttributes>
+        <searchedSuggestionAttributes>
+          <searchedSuggestionAttribute value="name"/>
+        </searchedSuggestionAttributes>
+        <browsePage>
+          <singleSelectPageTitles>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="cs" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="da" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="de" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="en" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="es" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="fi" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="fr" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="hu" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="it" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="ja" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="ko" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="nl" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="no" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="pl" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="pt" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="ru" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="sv" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="tr" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="zh" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="zh_TW" name="CABR_INPUT_TYPE_CODE_01"/>
+          </singleSelectPageTitles>
+          <multiSelectPageTitles>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="cs" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="da" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="de" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="en" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="es" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="fi" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="fr" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="hu" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="it" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="ja" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="ko" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="nl" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="no" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="pl" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="pt" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="ru" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="sv" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="tr" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="zh" name="CABR_INPUT_TYPE_CODE_01"/>
+            <nls description="CABR_INPUT_TYPE_CODE_01" languageCode="zh_TW" name="CABR_INPUT_TYPE_CODE_01"/>
+          </multiSelectPageTitles>
+          <filter code="code" defaultValue="" order="1" widgetType="text">
+            <nls description="" languageCode="cs" name="code"/>
+            <nls description="" languageCode="da" name="code"/>
+            <nls description="" languageCode="de" name="code"/>
+            <nls description="" languageCode="en" name="code"/>
+            <nls description="" languageCode="es" name="code"/>
+            <nls description="" languageCode="fi" name="code"/>
+            <nls description="" languageCode="fr" name="code"/>
+            <nls description="" languageCode="hu" name="code"/>
+            <nls description="" languageCode="it" name="code"/>
+            <nls description="" languageCode="ja" name="code"/>
+            <nls description="" languageCode="ko" name="code"/>
+            <nls description="" languageCode="nl" name="code"/>
+            <nls description="" languageCode="no" name="code"/>
+            <nls description="" languageCode="pl" name="code"/>
+            <nls description="" languageCode="pt" name="code"/>
+            <nls description="" languageCode="ru" name="code"/>
+            <nls description="" languageCode="sv" name="code"/>
+            <nls description="" languageCode="tr" name="code"/>
+            <nls description="" languageCode="zh" name="code"/>
+            <nls description="" languageCode="zh_TW" name="code"/>
+          </filter>
+          <filter code="name" defaultValue="" order="2" widgetType="text">
+            <nls description="" languageCode="cs" name="name"/>
+            <nls description="" languageCode="da" name="name"/>
+            <nls description="" languageCode="de" name="name"/>
+            <nls description="" languageCode="en" name="name"/>
+            <nls description="" languageCode="es" name="name"/>
+            <nls description="" languageCode="fi" name="name"/>
+            <nls description="" languageCode="fr" name="name"/>
+            <nls description="" languageCode="hu" name="name"/>
+            <nls description="" languageCode="it" name="name"/>
+            <nls description="" languageCode="ja" name="name"/>
+            <nls description="" languageCode="ko" name="name"/>
+            <nls description="" languageCode="nl" name="name"/>
+            <nls description="" languageCode="no" name="name"/>
+            <nls description="" languageCode="pl" name="name"/>
+            <nls description="" languageCode="pt" name="name"/>
+            <nls description="" languageCode="ru" name="name"/>
+            <nls description="" languageCode="sv" name="name"/>
+            <nls description="" languageCode="tr" name="name"/>
+            <nls description="" languageCode="zh" name="name"/>
+            <nls description="" languageCode="zh_TW" name="name"/>
+          </filter>
+          <listColumn code="code" order="1" widgetType="text">
+            <nls description="" languageCode="cs" name="code"/>
+            <nls description="" languageCode="da" name="code"/>
+            <nls description="" languageCode="de" name="code"/>
+            <nls description="" languageCode="en" name="code"/>
+            <nls description="" languageCode="es" name="code"/>
+            <nls description="" languageCode="fi" name="code"/>
+            <nls description="" languageCode="fr" name="code"/>
+            <nls description="" languageCode="hu" name="code"/>
+            <nls description="" languageCode="it" name="code"/>
+            <nls description="" languageCode="ja" name="code"/>
+            <nls description="" languageCode="ko" name="code"/>
+            <nls description="" languageCode="nl" name="code"/>
+            <nls description="" languageCode="no" name="code"/>
+            <nls description="" languageCode="pl" name="code"/>
+            <nls description="" languageCode="pt" name="code"/>
+            <nls description="" languageCode="ru" name="code"/>
+            <nls description="" languageCode="sv" name="code"/>
+            <nls description="" languageCode="tr" name="code"/>
+            <nls description="" languageCode="zh" name="code"/>
+            <nls description="" languageCode="zh_TW" name="code"/>
+          </listColumn>
+          <listColumn code="name" order="2" widgetType="text">
+            <nls description="" languageCode="cs" name="name"/>
+            <nls description="" languageCode="da" name="name"/>
+            <nls description="" languageCode="de" name="name"/>
+            <nls description="" languageCode="en" name="name"/>
+            <nls description="" languageCode="es" name="name"/>
+            <nls description="" languageCode="fi" name="name"/>
+            <nls description="" languageCode="fr" name="name"/>
+            <nls description="" languageCode="hu" name="name"/>
+            <nls description="" languageCode="it" name="name"/>
+            <nls description="" languageCode="ja" name="name"/>
+            <nls description="" languageCode="ko" name="name"/>
+            <nls description="" languageCode="nl" name="name"/>
+            <nls description="" languageCode="no" name="name"/>
+            <nls description="" languageCode="pl" name="name"/>
+            <nls description="" languageCode="pt" name="name"/>
+            <nls description="" languageCode="ru" name="name"/>
+            <nls description="" languageCode="sv" name="name"/>
+            <nls description="" languageCode="tr" name="name"/>
+            <nls description="" languageCode="zh" name="name"/>
+            <nls description="" languageCode="zh_TW" name="name"/>
+          </listColumn>
+        </browsePage>
+      </dynamicLookup>
+      <dynamicLookup autoSuggestEnabled="true" autoSuggestMaxSuggestions="10" code="CABR_RESOURCE_ASSIGN" displayAttributeName="full_name" hiddenAttributeName="unique_name" objectCode="" sortAttributeName="full_name" sortDirection="asc" source="niku.com" status="active" update="true">
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="cs" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="da" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="de" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="en" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="es" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="fi" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="fr" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="hu" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="it" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="ja" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="ko" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="nl" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="no" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="pl" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="pt" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="ru" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="sv" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="tr" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="zh" name="CABR Resource Assign"/>
+        <nls description="Utilizado no objeto CABR Financial Integration lista os recursos atribuídos a tarefa" languageCode="zh_TW" name="CABR Resource Assign"/>
+        <nsql databaseId="Niku" dbVendor="all"><![CDATA[SELECT res.UNIQUE_NAME, res.FULL_NAME
+FROM   SRM_RESOURCES res
+inner join prassignment a on res.id = a.PRRESOURCEID
+
+WHERE  @FILTER@
+@BROWSE-ONLY:
+AND   (a.prtaskid = @WHERE:PARAM:USER_DEF:INTEGER:TASKID@ 
+OR  @WHERE:PARAM:USER_DEF:INTEGER:TASKID@ is null)
+:BROWSE-ONLY@]]></nsql>
+        <displayedSuggestionAttributes>
+          <displayedSuggestionAttribute value="full_name"/>
+        </displayedSuggestionAttributes>
+        <searchedSuggestionAttributes>
+          <searchedSuggestionAttribute value="full_name"/>
+        </searchedSuggestionAttributes>
+        <browsePage>
+          <singleSelectPageTitles>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="cs" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="da" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="de" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="No description" languageCode="en" name="Atribuição de Recursos"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="es" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="fi" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="fr" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="hu" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="it" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="ja" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="ko" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="nl" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="no" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="pl" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="No description" languageCode="pt" name="Atribuição de Recursos"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="ru" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="sv" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="tr" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="zh" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="zh_TW" name="CABR_RESOURCE_ASSIGN_01"/>
+          </singleSelectPageTitles>
+          <multiSelectPageTitles>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="cs" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="da" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="de" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="No description" languageCode="en" name="Atribuição de Recursos"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="es" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="fi" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="fr" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="hu" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="it" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="ja" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="ko" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="nl" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="no" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="pl" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="No description" languageCode="pt" name="Atribuição de Recursos"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="ru" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="sv" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="tr" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="zh" name="CABR_RESOURCE_ASSIGN_01"/>
+            <nls description="CABR_RESOURCE_ASSIGN_01" languageCode="zh_TW" name="CABR_RESOURCE_ASSIGN_01"/>
+          </multiSelectPageTitles>
+          <filter code="unique_name" defaultValue="" order="1" widgetType="text">
+            <nls description="" languageCode="cs" name="unique_name"/>
+            <nls description="" languageCode="da" name="unique_name"/>
+            <nls description="" languageCode="de" name="unique_name"/>
+            <nls description="No description" languageCode="en" name="ID"/>
+            <nls description="" languageCode="es" name="unique_name"/>
+            <nls description="" languageCode="fi" name="unique_name"/>
+            <nls description="" languageCode="fr" name="unique_name"/>
+            <nls description="" languageCode="hu" name="unique_name"/>
+            <nls description="" languageCode="it" name="unique_name"/>
+            <nls description="" languageCode="ja" name="unique_name"/>
+            <nls description="" languageCode="ko" name="unique_name"/>
+            <nls description="" languageCode="nl" name="unique_name"/>
+            <nls description="" languageCode="no" name="unique_name"/>
+            <nls description="" languageCode="pl" name="unique_name"/>
+            <nls description="No description" languageCode="pt" name="ID"/>
+            <nls description="" languageCode="ru" name="unique_name"/>
+            <nls description="" languageCode="sv" name="unique_name"/>
+            <nls description="" languageCode="tr" name="unique_name"/>
+            <nls description="" languageCode="zh" name="unique_name"/>
+            <nls description="" languageCode="zh_TW" name="unique_name"/>
+          </filter>
+          <filter code="full_name" defaultValue="" order="2" widgetType="text">
+            <nls description="" languageCode="cs" name="full_name"/>
+            <nls description="" languageCode="da" name="full_name"/>
+            <nls description="" languageCode="de" name="full_name"/>
+            <nls description="No description" languageCode="en" name="Nome"/>
+            <nls description="" languageCode="es" name="full_name"/>
+            <nls description="" languageCode="fi" name="full_name"/>
+            <nls description="" languageCode="fr" name="full_name"/>
+            <nls description="" languageCode="hu" name="full_name"/>
+            <nls description="" languageCode="it" name="full_name"/>
+            <nls description="" languageCode="ja" name="full_name"/>
+            <nls description="" languageCode="ko" name="full_name"/>
+            <nls description="" languageCode="nl" name="full_name"/>
+            <nls description="" languageCode="no" name="full_name"/>
+            <nls description="" languageCode="pl" name="full_name"/>
+            <nls description="No description" languageCode="pt" name="Nome "/>
+            <nls description="" languageCode="ru" name="full_name"/>
+            <nls description="" languageCode="sv" name="full_name"/>
+            <nls description="" languageCode="tr" name="full_name"/>
+            <nls description="" languageCode="zh" name="full_name"/>
+            <nls description="" languageCode="zh_TW" name="full_name"/>
+          </filter>
+          <listColumn code="unique_name" order="1" widgetType="text">
+            <nls description="" languageCode="cs" name="unique_name"/>
+            <nls description="" languageCode="da" name="unique_name"/>
+            <nls description="" languageCode="de" name="unique_name"/>
+            <nls description="No description" languageCode="en" name="ID"/>
+            <nls description="" languageCode="es" name="unique_name"/>
+            <nls description="" languageCode="fi" name="unique_name"/>
+            <nls description="" languageCode="fr" name="unique_name"/>
+            <nls description="" languageCode="hu" name="unique_name"/>
+            <nls description="" languageCode="it" name="unique_name"/>
+            <nls description="" languageCode="ja" name="unique_name"/>
+            <nls description="" languageCode="ko" name="unique_name"/>
+            <nls description="" languageCode="nl" name="unique_name"/>
+            <nls description="" languageCode="no" name="unique_name"/>
+            <nls description="" languageCode="pl" name="unique_name"/>
+            <nls description="No description" languageCode="pt" name="ID"/>
+            <nls description="" languageCode="ru" name="unique_name"/>
+            <nls description="" languageCode="sv" name="unique_name"/>
+            <nls description="" languageCode="tr" name="unique_name"/>
+            <nls description="" languageCode="zh" name="unique_name"/>
+            <nls description="" languageCode="zh_TW" name="unique_name"/>
+          </listColumn>
+          <listColumn code="full_name" order="2" widgetType="text">
+            <nls description="" languageCode="cs" name="full_name"/>
+            <nls description="" languageCode="da" name="full_name"/>
+            <nls description="" languageCode="de" name="full_name"/>
+            <nls description="No description" languageCode="en" name="Nome"/>
+            <nls description="" languageCode="es" name="full_name"/>
+            <nls description="" languageCode="fi" name="full_name"/>
+            <nls description="" languageCode="fr" name="full_name"/>
+            <nls description="" languageCode="hu" name="full_name"/>
+            <nls description="" languageCode="it" name="full_name"/>
+            <nls description="" languageCode="ja" name="full_name"/>
+            <nls description="" languageCode="ko" name="full_name"/>
+            <nls description="" languageCode="nl" name="full_name"/>
+            <nls description="" languageCode="no" name="full_name"/>
+            <nls description="" languageCode="pl" name="full_name"/>
+            <nls description="No description" languageCode="pt" name="Nome "/>
+            <nls description="" languageCode="ru" name="full_name"/>
+            <nls description="" languageCode="sv" name="full_name"/>
+            <nls description="" languageCode="tr" name="full_name"/>
+            <nls description="" languageCode="zh" name="full_name"/>
+            <nls description="" languageCode="zh_TW" name="full_name"/>
+          </listColumn>
+        </browsePage>
+      </dynamicLookup>
+      <dynamicLookup autoSuggestEnabled="true" autoSuggestMaxSuggestions="10" code="CABR_TASKS" displayAttributeName="prname" hiddenAttributeName="prid" objectCode="" sortAttributeName="prname" sortDirection="asc" source="niku.com" status="active" update="true">
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="cs" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="da" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="de" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="en" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="es" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="fi" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="fr" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="hu" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="it" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="ja" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="ko" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="nl" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="no" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="pl" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="pt" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="ru" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="sv" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="tr" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="zh" name="CABR Task Browse Param"/>
+        <nls description="Lista de tarefas utilizada no objeto CABR Financial Integration" languageCode="zh_TW" name="CABR Task Browse Param"/>
+        <nsql databaseId="Niku" dbVendor="all"><![CDATA[SELECT t.prid , t.prname , odf_t.cabr_tsk_has_cst 
+FROM   prtask t
+inner join srm_projects p on t.PRPROJECTID= p.id
+inner join odf_ca_task odf_t on t.prid = odf_t.id
+
+WHERE  @FILTER@
+@BROWSE-ONLY:
+AND odf_t.cabr_tsk_has_cst = 1
+AND   (p.unique_name = @WHERE:PARAM:USER_DEF:STRING:PROJECT_CODE@ 
+OR  @WHERE:PARAM:USER_DEF:STRING:PROJECT_CODE@ is null)
+:BROWSE-ONLY@]]></nsql>
+        <displayedSuggestionAttributes>
+          <displayedSuggestionAttribute value="prname"/>
+        </displayedSuggestionAttributes>
+        <searchedSuggestionAttributes>
+          <searchedSuggestionAttribute value="prname"/>
+        </searchedSuggestionAttributes>
+        <browsePage>
+          <singleSelectPageTitles>
+            <nls description="CABR_TASKS_01" languageCode="cs" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="da" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="de" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="en" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="es" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="fi" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="fr" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="hu" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="it" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="ja" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="ko" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="nl" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="no" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="pl" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="pt" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="ru" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="sv" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="tr" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="zh" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="zh_TW" name="CABR_TASKS_01"/>
+          </singleSelectPageTitles>
+          <multiSelectPageTitles>
+            <nls description="CABR_TASKS_01" languageCode="cs" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="da" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="de" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="en" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="es" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="fi" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="fr" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="hu" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="it" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="ja" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="ko" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="nl" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="no" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="pl" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="pt" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="ru" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="sv" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="tr" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="zh" name="CABR_TASKS_01"/>
+            <nls description="CABR_TASKS_01" languageCode="zh_TW" name="CABR_TASKS_01"/>
+          </multiSelectPageTitles>
+          <filter code="prid" defaultValue="" order="1" widgetType="text">
+            <nls description="" languageCode="cs" name="prid"/>
+            <nls description="" languageCode="da" name="prid"/>
+            <nls description="" languageCode="de" name="prid"/>
+            <nls description="" languageCode="en" name="prid"/>
+            <nls description="" languageCode="es" name="prid"/>
+            <nls description="" languageCode="fi" name="prid"/>
+            <nls description="" languageCode="fr" name="prid"/>
+            <nls description="" languageCode="hu" name="prid"/>
+            <nls description="" languageCode="it" name="prid"/>
+            <nls description="" languageCode="ja" name="prid"/>
+            <nls description="" languageCode="ko" name="prid"/>
+            <nls description="" languageCode="nl" name="prid"/>
+            <nls description="" languageCode="no" name="prid"/>
+            <nls description="" languageCode="pl" name="prid"/>
+            <nls description="" languageCode="pt" name="prid"/>
+            <nls description="" languageCode="ru" name="prid"/>
+            <nls description="" languageCode="sv" name="prid"/>
+            <nls description="" languageCode="tr" name="prid"/>
+            <nls description="" languageCode="zh" name="prid"/>
+            <nls description="" languageCode="zh_TW" name="prid"/>
+          </filter>
+          <filter code="prname" defaultValue="" order="2" widgetType="text">
+            <nls description="" languageCode="cs" name="prname"/>
+            <nls description="" languageCode="da" name="prname"/>
+            <nls description="" languageCode="de" name="prname"/>
+            <nls description="" languageCode="en" name="prname"/>
+            <nls description="" languageCode="es" name="prname"/>
+            <nls description="" languageCode="fi" name="prname"/>
+            <nls description="" languageCode="fr" name="prname"/>
+            <nls description="" languageCode="hu" name="prname"/>
+            <nls description="" languageCode="it" name="prname"/>
+            <nls description="" languageCode="ja" name="prname"/>
+            <nls description="" languageCode="ko" name="prname"/>
+            <nls description="" languageCode="nl" name="prname"/>
+            <nls description="" languageCode="no" name="prname"/>
+            <nls description="" languageCode="pl" name="prname"/>
+            <nls description="" languageCode="pt" name="prname"/>
+            <nls description="" languageCode="ru" name="prname"/>
+            <nls description="" languageCode="sv" name="prname"/>
+            <nls description="" languageCode="tr" name="prname"/>
+            <nls description="" languageCode="zh" name="prname"/>
+            <nls description="" languageCode="zh_TW" name="prname"/>
+          </filter>
+          <filter code="cabr_tsk_has_cst" defaultValue="" order="3" widgetType="text">
+            <nls description="" languageCode="cs" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="da" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="de" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="en" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="es" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="fi" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="fr" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="hu" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="it" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="ja" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="ko" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="nl" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="no" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="pl" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="pt" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="ru" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="sv" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="tr" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="zh" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="zh_TW" name="cabr_tsk_has_cst"/>
+          </filter>
+          <listColumn code="prid" order="1" widgetType="text">
+            <nls description="" languageCode="cs" name="prid"/>
+            <nls description="" languageCode="da" name="prid"/>
+            <nls description="" languageCode="de" name="prid"/>
+            <nls description="" languageCode="en" name="prid"/>
+            <nls description="" languageCode="es" name="prid"/>
+            <nls description="" languageCode="fi" name="prid"/>
+            <nls description="" languageCode="fr" name="prid"/>
+            <nls description="" languageCode="hu" name="prid"/>
+            <nls description="" languageCode="it" name="prid"/>
+            <nls description="" languageCode="ja" name="prid"/>
+            <nls description="" languageCode="ko" name="prid"/>
+            <nls description="" languageCode="nl" name="prid"/>
+            <nls description="" languageCode="no" name="prid"/>
+            <nls description="" languageCode="pl" name="prid"/>
+            <nls description="" languageCode="pt" name="prid"/>
+            <nls description="" languageCode="ru" name="prid"/>
+            <nls description="" languageCode="sv" name="prid"/>
+            <nls description="" languageCode="tr" name="prid"/>
+            <nls description="" languageCode="zh" name="prid"/>
+            <nls description="" languageCode="zh_TW" name="prid"/>
+          </listColumn>
+          <listColumn code="prname" order="2" widgetType="text">
+            <nls description="" languageCode="cs" name="prname"/>
+            <nls description="" languageCode="da" name="prname"/>
+            <nls description="" languageCode="de" name="prname"/>
+            <nls description="" languageCode="en" name="prname"/>
+            <nls description="" languageCode="es" name="prname"/>
+            <nls description="" languageCode="fi" name="prname"/>
+            <nls description="" languageCode="fr" name="prname"/>
+            <nls description="" languageCode="hu" name="prname"/>
+            <nls description="" languageCode="it" name="prname"/>
+            <nls description="" languageCode="ja" name="prname"/>
+            <nls description="" languageCode="ko" name="prname"/>
+            <nls description="" languageCode="nl" name="prname"/>
+            <nls description="" languageCode="no" name="prname"/>
+            <nls description="" languageCode="pl" name="prname"/>
+            <nls description="" languageCode="pt" name="prname"/>
+            <nls description="" languageCode="ru" name="prname"/>
+            <nls description="" languageCode="sv" name="prname"/>
+            <nls description="" languageCode="tr" name="prname"/>
+            <nls description="" languageCode="zh" name="prname"/>
+            <nls description="" languageCode="zh_TW" name="prname"/>
+          </listColumn>
+          <listColumn code="cabr_tsk_has_cst" order="3" widgetType="text">
+            <nls description="" languageCode="cs" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="da" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="de" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="en" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="es" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="fi" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="fr" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="hu" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="it" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="ja" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="ko" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="nl" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="no" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="pl" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="pt" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="ru" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="sv" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="tr" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="zh" name="cabr_tsk_has_cst"/>
+            <nls description="" languageCode="zh_TW" name="cabr_tsk_has_cst"/>
+          </listColumn>
+        </browsePage>
+      </dynamicLookup>
+      <dynamicLookup autoSuggestEnabled="true" autoSuggestMaxSuggestions="10" code="CABR_USERLOV1" displayAttributeName="name" hiddenAttributeName="code" objectCode="" sortAttributeName="name" sortDirection="asc" source="niku.com" status="active" update="true">
+        <nls description="" languageCode="cs" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="da" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="de" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="en" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="es" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="fi" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="fr" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="hu" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="it" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="ja" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="ko" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="nl" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="no" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="pl" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="pt" name="CABR Valor de Usu&#xE1;rio 1"/>
+        <nls description="" languageCode="ru" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="sv" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="tr" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="zh" name="CABR Valor de Usuário 1"/>
+        <nls description="" languageCode="zh_TW" name="CABR Valor de Usuário 1"/>
+        <nsql databaseId="Niku" dbVendor="all"><![CDATA[SELECT  @SELECT:DATA.CODE:CODE@
+, @SELECT:DATA.NAME:NAME@	              
+  		               , @SELECT:DATA.CODE:UNIQUE_CODE@
+  		               ,@SELECT:DATA.DESCRIPTION:DESCRIPTION@
+  		        FROM FIN_BROWSE_USER_LOV1_V DATA
+		   WHERE @FILTER@ 
+                     AND    LANGUAGE_CODE = @WHERE:PARAM:LANGUAGE@
+                     @BROWSE-ONLY:
+                     AND    IS_ACTIVE = 1
+                     :BROWSE-ONLY@]]></nsql>
+        <displayedSuggestionAttributes>
+          <displayedSuggestionAttribute value="code"/>
+        </displayedSuggestionAttributes>
+        <searchedSuggestionAttributes>
+          <searchedSuggestionAttribute value="code"/>
+        </searchedSuggestionAttributes>
+        <browsePage>
+          <singleSelectPageTitles>
+            <nls description="CABR_USERLOV1_01" languageCode="cs" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="da" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="de" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="en" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="es" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="fi" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="fr" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="hu" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="it" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="ja" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="ko" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="nl" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="no" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="pl" name="CABR_USERLOV1_01"/>
+            <nls description="No description" languageCode="pt" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="ru" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="sv" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="tr" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="zh" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="zh_TW" name="CABR_USERLOV1_01"/>
+          </singleSelectPageTitles>
+          <multiSelectPageTitles>
+            <nls description="CABR_USERLOV1_01" languageCode="cs" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="da" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="de" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="en" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="es" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="fi" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="fr" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="hu" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="it" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="ja" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="ko" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="nl" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="no" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="pl" name="CABR_USERLOV1_01"/>
+            <nls description="No description" languageCode="pt" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="ru" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="sv" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="tr" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="zh" name="CABR_USERLOV1_01"/>
+            <nls description="CABR_USERLOV1_01" languageCode="zh_TW" name="CABR_USERLOV1_01"/>
+          </multiSelectPageTitles>
+          <filter code="name" defaultValue="" order="1" widgetType="text">
+            <nls description="" languageCode="cs" name="name"/>
+            <nls description="" languageCode="da" name="name"/>
+            <nls description="" languageCode="de" name="name"/>
+            <nls description="" languageCode="en" name="name"/>
+            <nls description="" languageCode="es" name="name"/>
+            <nls description="" languageCode="fi" name="name"/>
+            <nls description="" languageCode="fr" name="name"/>
+            <nls description="" languageCode="hu" name="name"/>
+            <nls description="" languageCode="it" name="name"/>
+            <nls description="" languageCode="ja" name="name"/>
+            <nls description="" languageCode="ko" name="name"/>
+            <nls description="" languageCode="nl" name="name"/>
+            <nls description="" languageCode="no" name="name"/>
+            <nls description="" languageCode="pl" name="name"/>
+            <nls description="No description" languageCode="pt" name="name"/>
+            <nls description="" languageCode="ru" name="name"/>
+            <nls description="" languageCode="sv" name="name"/>
+            <nls description="" languageCode="tr" name="name"/>
+            <nls description="" languageCode="zh" name="name"/>
+            <nls description="" languageCode="zh_TW" name="name"/>
+          </filter>
+          <listColumn code="code" order="1" widgetType="hidden">
+            <nls description="" languageCode="cs" name="code"/>
+            <nls description="" languageCode="da" name="code"/>
+            <nls description="" languageCode="de" name="code"/>
+            <nls description="" languageCode="en" name="code"/>
+            <nls description="" languageCode="es" name="code"/>
+            <nls description="" languageCode="fi" name="code"/>
+            <nls description="" languageCode="fr" name="code"/>
+            <nls description="" languageCode="hu" name="code"/>
+            <nls description="" languageCode="it" name="code"/>
+            <nls description="" languageCode="ja" name="code"/>
+            <nls description="" languageCode="ko" name="code"/>
+            <nls description="" languageCode="nl" name="code"/>
+            <nls description="" languageCode="no" name="code"/>
+            <nls description="" languageCode="pl" name="code"/>
+            <nls description="No description" languageCode="pt" name="code"/>
+            <nls description="" languageCode="ru" name="code"/>
+            <nls description="" languageCode="sv" name="code"/>
+            <nls description="" languageCode="tr" name="code"/>
+            <nls description="" languageCode="zh" name="code"/>
+            <nls description="" languageCode="zh_TW" name="code"/>
+          </listColumn>
+          <listColumn code="name" order="1" widgetType="text">
+            <nls description="" languageCode="cs" name="name"/>
+            <nls description="" languageCode="da" name="name"/>
+            <nls description="" languageCode="de" name="name"/>
+            <nls description="" languageCode="en" name="name"/>
+            <nls description="" languageCode="es" name="name"/>
+            <nls description="" languageCode="fi" name="name"/>
+            <nls description="" languageCode="fr" name="name"/>
+            <nls description="" languageCode="hu" name="name"/>
+            <nls description="" languageCode="it" name="name"/>
+            <nls description="" languageCode="ja" name="name"/>
+            <nls description="" languageCode="ko" name="name"/>
+            <nls description="" languageCode="nl" name="name"/>
+            <nls description="" languageCode="no" name="name"/>
+            <nls description="" languageCode="pl" name="name"/>
+            <nls description="No description" languageCode="pt" name="name"/>
+            <nls description="" languageCode="ru" name="name"/>
+            <nls description="" languageCode="sv" name="name"/>
+            <nls description="" languageCode="tr" name="name"/>
+            <nls description="" languageCode="zh" name="name"/>
+            <nls description="" languageCode="zh_TW" name="name"/>
+          </listColumn>
+        </browsePage>
+      </dynamicLookup>
+      <dynamicLookup autoSuggestEnabled="true" autoSuggestMaxSuggestions="10" code="CABR_USERLOV2" displayAttributeName="name" hiddenAttributeName="code" objectCode="" sortAttributeName="name" sortDirection="asc" source="niku.com" status="active" update="true">
+        <nls description="" languageCode="cs" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="da" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="de" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="en" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="es" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="fi" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="fr" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="hu" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="it" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="ja" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="ko" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="nl" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="no" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="pl" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="pt" name="CABR Valor de Usu&#xE1;rio 2"/>
+        <nls description="" languageCode="ru" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="sv" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="tr" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="zh" name="CABR Valor de Usuário 2"/>
+        <nls description="" languageCode="zh_TW" name="CABR Valor de Usuário 2"/>
+        <nsql databaseId="Niku" dbVendor="all"><![CDATA[SELECT @SELECT:DATA.LOOKUP_CODE:CODE@,
+        @SELECT:DATA.NAME:NAME@                     
+                     , @SELECT:DATA.LOOKUP_CODE:UNIQUE_CODE@
+                     ,@SELECT:DATA.DESCRIPTION:DESCRIPTION@
+              FROM  CMN_LOOKUPS_V DATA
+              WHERE @FILTER@ AND LOOKUP_TYPE = 'PRTIMEENTRY_USER_LOV2'
+                     AND    LANGUAGE_CODE = @WHERE:PARAM:LANGUAGE@
+                     @BROWSE-ONLY:
+                     AND    IS_ACTIVE = 1
+                     :BROWSE-ONLY@]]></nsql>
+        <displayedSuggestionAttributes>
+          <displayedSuggestionAttribute value="name"/>
+        </displayedSuggestionAttributes>
+        <searchedSuggestionAttributes>
+          <searchedSuggestionAttribute value="name"/>
+        </searchedSuggestionAttributes>
+        <browsePage>
+          <singleSelectPageTitles>
+            <nls description="CABR_USERLOV2_01" languageCode="cs" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="da" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="de" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="en" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="es" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="fi" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="fr" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="hu" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="it" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="ja" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="ko" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="nl" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="no" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="pl" name="CABR_USERLOV2_01"/>
+            <nls description="No description" languageCode="pt" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="ru" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="sv" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="tr" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="zh" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="zh_TW" name="CABR_USERLOV2_01"/>
+          </singleSelectPageTitles>
+          <multiSelectPageTitles>
+            <nls description="CABR_USERLOV2_01" languageCode="cs" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="da" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="de" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="en" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="es" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="fi" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="fr" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="hu" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="it" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="ja" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="ko" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="nl" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="no" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="pl" name="CABR_USERLOV2_01"/>
+            <nls description="No description" languageCode="pt" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="ru" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="sv" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="tr" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="zh" name="CABR_USERLOV2_01"/>
+            <nls description="CABR_USERLOV2_01" languageCode="zh_TW" name="CABR_USERLOV2_01"/>
+          </multiSelectPageTitles>
+          <filter code="name" defaultValue="" order="1" widgetType="text">
+            <nls description="" languageCode="cs" name="name"/>
+            <nls description="" languageCode="da" name="name"/>
+            <nls description="" languageCode="de" name="name"/>
+            <nls description="" languageCode="en" name="name"/>
+            <nls description="" languageCode="es" name="name"/>
+            <nls description="" languageCode="fi" name="name"/>
+            <nls description="" languageCode="fr" name="name"/>
+            <nls description="" languageCode="hu" name="name"/>
+            <nls description="" languageCode="it" name="name"/>
+            <nls description="" languageCode="ja" name="name"/>
+            <nls description="" languageCode="ko" name="name"/>
+            <nls description="" languageCode="nl" name="name"/>
+            <nls description="" languageCode="no" name="name"/>
+            <nls description="" languageCode="pl" name="name"/>
+            <nls description="No description" languageCode="pt" name="name"/>
+            <nls description="" languageCode="ru" name="name"/>
+            <nls description="" languageCode="sv" name="name"/>
+            <nls description="" languageCode="tr" name="name"/>
+            <nls description="" languageCode="zh" name="name"/>
+            <nls description="" languageCode="zh_TW" name="name"/>
+          </filter>
+          <listColumn code="code" order="1" widgetType="hidden">
+            <nls description="" languageCode="cs" name="code"/>
+            <nls description="" languageCode="da" name="code"/>
+            <nls description="" languageCode="de" name="code"/>
+            <nls description="" languageCode="en" name="code"/>
+            <nls description="" languageCode="es" name="code"/>
+            <nls description="" languageCode="fi" name="code"/>
+            <nls description="" languageCode="fr" name="code"/>
+            <nls description="" languageCode="hu" name="code"/>
+            <nls description="" languageCode="it" name="code"/>
+            <nls description="" languageCode="ja" name="code"/>
+            <nls description="" languageCode="ko" name="code"/>
+            <nls description="" languageCode="nl" name="code"/>
+            <nls description="" languageCode="no" name="code"/>
+            <nls description="" languageCode="pl" name="code"/>
+            <nls description="No description" languageCode="pt" name="code"/>
+            <nls description="" languageCode="ru" name="code"/>
+            <nls description="" languageCode="sv" name="code"/>
+            <nls description="" languageCode="tr" name="code"/>
+            <nls description="" languageCode="zh" name="code"/>
+            <nls description="" languageCode="zh_TW" name="code"/>
+          </listColumn>
+          <listColumn code="name" order="1" widgetType="text">
+            <nls description="" languageCode="cs" name="name"/>
+            <nls description="" languageCode="da" name="name"/>
+            <nls description="" languageCode="de" name="name"/>
+            <nls description="" languageCode="en" name="name"/>
+            <nls description="" languageCode="es" name="name"/>
+            <nls description="" languageCode="fi" name="name"/>
+            <nls description="" languageCode="fr" name="name"/>
+            <nls description="" languageCode="hu" name="name"/>
+            <nls description="" languageCode="it" name="name"/>
+            <nls description="" languageCode="ja" name="name"/>
+            <nls description="" languageCode="ko" name="name"/>
+            <nls description="" languageCode="nl" name="name"/>
+            <nls description="" languageCode="no" name="name"/>
+            <nls description="" languageCode="pl" name="name"/>
+            <nls description="No description" languageCode="pt" name="name"/>
+            <nls description="" languageCode="ru" name="name"/>
+            <nls description="" languageCode="sv" name="name"/>
+            <nls description="" languageCode="tr" name="name"/>
+            <nls description="" languageCode="zh" name="name"/>
+            <nls description="" languageCode="zh_TW" name="name"/>
+          </listColumn>
+        </browsePage>
+      </dynamicLookup>
+      <staticLookup autoSuggestEnabled="true" autoSuggestMaxSuggestions="10" code="CABR_FIN_IMP_ACTION" hiddenAttributeName="lookup_code" sortStyle="manual" source="niku.com" status="active" update="true">
+        <nls description="" languageCode="cs" name="CABR Financial Import Action"/>
+        <nls description="" languageCode="da" name="CABR Financial Import Action"/>
+        <nls description="" languageCode="de" name="CABR Financial Import Action"/>
+        <nls description="" languageCode="en" name="CABR Financial Import Action"/>
+        <nls description="" languageCode="es" name="CABR Financial Import Action"/>
+        <nls description="" languageCode="fi" name="CABR Financial Import Action"/>
+        <nls description="" languageCode="fr" name="CABR Financial Import Action"/>
+        <nls description="CABR_FIN_IMP_ACTION" languageCode="hu" name="CABR_FIN_IMP_ACTION"/>
+        <nls description="" languageCode="it" name="CABR Financial Import Action"/>
+        <nls description="" languageCode="ja" name="CABR Financial Import Action"/>
+        <nls description="" languageCode="ko" name="CABR Financial Import Action"/>
+        <nls description="" languageCode="nl" name="CABR Financial Import Action"/>
+        <nls description="CABR_FIN_IMP_ACTION" languageCode="no" name="CABR_FIN_IMP_ACTION"/>
+        <nls description="CABR_FIN_IMP_ACTION" languageCode="pl" name="CABR_FIN_IMP_ACTION"/>
+        <nls description="" languageCode="pt" name="CABR Financial Import Action"/>
+        <nls description="CABR_FIN_IMP_ACTION" languageCode="ru" name="CABR_FIN_IMP_ACTION"/>
+        <nls description="" languageCode="sv" name="CABR Financial Import Action"/>
+        <nls description="CABR_FIN_IMP_ACTION" languageCode="tr" name="CABR_FIN_IMP_ACTION"/>
+        <nls description="" languageCode="zh" name="CABR Financial Import Action"/>
+        <nls description="" languageCode="zh_TW" name="CABR Financial Import Action"/>
+        <lookupValue code="I" sortOrder="1" status="active">
+          <nls description="" languageCode="cs" name="Importar"/>
+          <nls description="" languageCode="da" name="Importar"/>
+          <nls description="" languageCode="de" name="Importar"/>
+          <nls description="" languageCode="en" name="Importar"/>
+          <nls description="" languageCode="es" name="Importar"/>
+          <nls description="" languageCode="fi" name="Importar"/>
+          <nls description="" languageCode="fr" name="Importar"/>
+          <nls description="I" languageCode="hu" name="I"/>
+          <nls description="" languageCode="it" name="Importar"/>
+          <nls description="" languageCode="ja" name="Importar"/>
+          <nls description="" languageCode="ko" name="Importar"/>
+          <nls description="" languageCode="nl" name="Importar"/>
+          <nls description="I" languageCode="no" name="I"/>
+          <nls description="I" languageCode="pl" name="I"/>
+          <nls description="" languageCode="pt" name="Importar"/>
+          <nls description="I" languageCode="ru" name="I"/>
+          <nls description="" languageCode="sv" name="Importar"/>
+          <nls description="I" languageCode="tr" name="I"/>
+          <nls description="" languageCode="zh" name="Importar"/>
+          <nls description="" languageCode="zh_TW" name="Importar"/>
+        </lookupValue>
+        <lookupValue code="N" sortOrder="2" status="active">
+          <nls description="" languageCode="cs" name="Não Importar"/>
+          <nls description="" languageCode="da" name="Não Importar"/>
+          <nls description="" languageCode="de" name="Não Importar"/>
+          <nls description="" languageCode="en" name="Náo Importar"/>
+          <nls description="" languageCode="es" name="Não Importar"/>
+          <nls description="" languageCode="fi" name="Não Importar"/>
+          <nls description="" languageCode="fr" name="Não Importar"/>
+          <nls description="N" languageCode="hu" name="N"/>
+          <nls description="" languageCode="it" name="Não Importar"/>
+          <nls description="" languageCode="ja" name="Não Importar"/>
+          <nls description="" languageCode="ko" name="Não Importar"/>
+          <nls description="" languageCode="nl" name="Não Importar"/>
+          <nls description="N" languageCode="no" name="N"/>
+          <nls description="N" languageCode="pl" name="N"/>
+          <nls description="" languageCode="pt" name="Náo Importar"/>
+          <nls description="N" languageCode="ru" name="N"/>
+          <nls description="" languageCode="sv" name="Não Importar"/>
+          <nls description="N" languageCode="tr" name="N"/>
+          <nls description="" languageCode="zh" name="Não Importar"/>
+          <nls description="" languageCode="zh_TW" name="Não Importar"/>
+        </lookupValue>
+        <lookupValue code="Náo Importar" sortOrder="3" status="inactive">
+          <nls description="" languageCode="cs" name="N"/>
+          <nls description="" languageCode="da" name="N"/>
+          <nls description="" languageCode="de" name="N"/>
+          <nls description="" languageCode="en" name="N"/>
+          <nls description="" languageCode="es" name="N"/>
+          <nls description="" languageCode="fi" name="N"/>
+          <nls description="" languageCode="fr" name="N"/>
+          <nls description="Não Importar" languageCode="hu" name="Não Importar"/>
+          <nls description="" languageCode="it" name="N"/>
+          <nls description="" languageCode="ja" name="N"/>
+          <nls description="" languageCode="ko" name="N"/>
+          <nls description="" languageCode="nl" name="N"/>
+          <nls description="Não Importar" languageCode="no" name="Não Importar"/>
+          <nls description="Não Importar" languageCode="pl" name="Não Importar"/>
+          <nls description="" languageCode="pt" name="N"/>
+          <nls description="Não Importar" languageCode="ru" name="Não Importar"/>
+          <nls description="" languageCode="sv" name="N"/>
+          <nls description="Não Importar" languageCode="tr" name="Não Importar"/>
+          <nls description="" languageCode="zh" name="N"/>
+          <nls description="" languageCode="zh_TW" name="N"/>
+        </lookupValue>
+        <lookupValue code="Não Importar" sortOrder="3" status="inactive">
+          <nls description="" languageCode="cs" name="N"/>
+          <nls description="" languageCode="da" name="N"/>
+          <nls description="" languageCode="de" name="N"/>
+          <nls description="" languageCode="en" name="N"/>
+          <nls description="" languageCode="es" name="N"/>
+          <nls description="" languageCode="fi" name="N"/>
+          <nls description="" languageCode="fr" name="N"/>
+          <nls description="Não Importar" languageCode="hu" name="Não Importar"/>
+          <nls description="" languageCode="it" name="N"/>
+          <nls description="" languageCode="ja" name="N"/>
+          <nls description="" languageCode="ko" name="N"/>
+          <nls description="" languageCode="nl" name="N"/>
+          <nls description="Não Importar" languageCode="no" name="Não Importar"/>
+          <nls description="Não Importar" languageCode="pl" name="Não Importar"/>
+          <nls description="" languageCode="pt" name="N"/>
+          <nls description="Não Importar" languageCode="ru" name="Não Importar"/>
+          <nls description="" languageCode="sv" name="N"/>
+          <nls description="Não Importar" languageCode="tr" name="Não Importar"/>
+          <nls description="" languageCode="zh" name="N"/>
+          <nls description="" languageCode="zh_TW" name="N"/>
+        </lookupValue>
+        <lookupValue code="Importar" sortOrder="4" status="inactive">
+          <nls description="" languageCode="cs" name="I"/>
+          <nls description="" languageCode="da" name="I"/>
+          <nls description="" languageCode="de" name="I"/>
+          <nls description="" languageCode="en" name="I"/>
+          <nls description="" languageCode="es" name="I"/>
+          <nls description="" languageCode="fi" name="I"/>
+          <nls description="" languageCode="fr" name="I"/>
+          <nls description="Importar" languageCode="hu" name="Importar"/>
+          <nls description="" languageCode="it" name="I"/>
+          <nls description="" languageCode="ja" name="I"/>
+          <nls description="" languageCode="ko" name="I"/>
+          <nls description="" languageCode="nl" name="I"/>
+          <nls description="Importar" languageCode="no" name="Importar"/>
+          <nls description="Importar" languageCode="pl" name="Importar"/>
+          <nls description="" languageCode="pt" name="I"/>
+          <nls description="Importar" languageCode="ru" name="Importar"/>
+          <nls description="" languageCode="sv" name="I"/>
+          <nls description="Importar" languageCode="tr" name="Importar"/>
+          <nls description="" languageCode="zh" name="I"/>
+          <nls description="" languageCode="zh_TW" name="I"/>
+        </lookupValue>
+        <displayedSuggestionAttributes>
+          <displayedSuggestionAttribute value="name"/>
+        </displayedSuggestionAttributes>
+        <searchedSuggestionAttributes>
+          <searchedSuggestionAttribute value="name"/>
+        </searchedSuggestionAttributes>
+      </staticLookup>
+    </lookups>
+  </contentPack>
+</NikuDataBus>
